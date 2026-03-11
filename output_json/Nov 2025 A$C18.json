@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 18,
+    "Category (Make & Type)": "C18",
+    "Dependency/Auth (UE)": 13,
+    "Held (UH)": 13,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 0,
+    "Total NMC (Nos)": 1,
+    "FMC": 12,
+    "Remarks\n(Demand details of VOR/EOA )": "\n01 x Spares demanded"
+  }
+}

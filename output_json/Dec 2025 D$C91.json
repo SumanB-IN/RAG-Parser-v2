@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 91,
+    "Category (Make & Type)": "C91",
+    "Dependency/Auth (UE)": 9,
+    "Held (UH)": 10,
+    "MUA": 0,
+    "OH": 0,
+    "R4/CL-V & VI": 1,
+    "Total NMC (Nos)": 1,
+    "FMC": 9,
+    "Remarks\n(Demand details of VOR/EOA )": 0
+  }
+}

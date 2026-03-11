@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 17,
+    "Category \n(Make & Type)": "B17",
+    "Dependency/Auth \n(UE)": 90,
+    "Held\n(UH)": 84,
+    "NMC Due to/MUA": 1,
+    "OH": 4,
+    "R4": 3,
+    "Total": 8,
+    "FMC": 76,
+    "Remarks": "03 x  Gear Box under OH (02 x W5 & 01 x 17 CZW)\n01 x Scania off rd for eng, to be fwd to W5 (CIN recd, reporting dt 01 Feb 2026)\n01 x Veh under BOH\n03 x Vehs decl CL-V"
+  }
+}

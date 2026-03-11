@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 1,
+    "Category (Make & Type)": "C1",
+    "Dependency/Auth (UE)": 16,
+    "Held (UH)": 10,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 1,
+    "Total NMC (Nos)": 2,
+    "FMC": 8,
+    "Remarks\n(Demand details of VOR/EOA )": "01 x Dozer DECL CL-VI\n1 x Bty Demanded\n"
+  }
+}

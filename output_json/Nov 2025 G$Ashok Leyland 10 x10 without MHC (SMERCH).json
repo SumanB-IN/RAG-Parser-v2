@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 44,
+    "Category (Make & Type)": "Ashok Leyland 10 x10 without MHC (SMERCH)",
+    "Dependency/Auth (UE)": 18,
+    "Dependency/Held (UH)": 18,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 18,
+    "Remarks (To incl present loc of eqpt EOA)": 0
+  }
+}

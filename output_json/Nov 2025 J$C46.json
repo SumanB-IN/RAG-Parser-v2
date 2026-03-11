@@ -1,0 +1,16 @@
+{
+  "sheet": "APPX C veh",
+  "source_file": "Nov 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 46,
+    "Category (Make & Type)": "C46",
+    "Dependency/Auth (UE)": 0,
+    "Dependency/Held (UH)": 7,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 1,
+    "FMC/FMC": 6,
+    "Remarks/Remarks": "01x Dozer 65 UNSV due to steering sys not functional Defect report raised as on 17 Jun 2025 * 07x Dozer BD-65 newely issued "
+  }
+}

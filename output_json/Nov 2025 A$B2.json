@@ -1,0 +1,18 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 2,
+    "Category (Make & Type)": "B2",
+    "Dependency/Auth (UE)": 1718,
+    "Dependency/Held (UH)": 1577,
+    "MUA": 9,
+    "OH": 0,
+    "R4": 13,
+    "Total": 22,
+    "FMC": 1555,
+    "Remarks (To incl present loc of eqpt EOA)": "\nMUAs-08\n04 X Eng assy demanded\n01 x Wind Shield Glass Deamded\n01 x Axle assy demanded \n02 x Chassis cracked (Chassis of  Tata B2 in r/o 5 DOGRA fitment under progress at OEM Duliajan & 01 x B2 in r/o U10, chassis crack, followup report raised on 16 Oct 2025.)\n12 x CL V\n02 x CL VI",
+    "column_11": 0,
+    "column_12": 0
+  }
+}

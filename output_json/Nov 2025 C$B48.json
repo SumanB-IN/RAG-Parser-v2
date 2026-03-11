@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 48,
+    "Category (Make & Type)": "B48",
+    "Dependency/Auth (UE)": 368,
+    "Dependency/Held (UH)": 302,
+    "MUA": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC/FMC": 301,
+    "Remarks/Remarks": "01 x Eng assy demanded at 17 Corps OMC. Eng released by OD Kolkata. Collection under prog.\n"
+  }
+}

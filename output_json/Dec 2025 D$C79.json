@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 79,
+    "Category (Make & Type)": "C79",
+    "Dependency/Auth (UE)": 11,
+    "Held (UH)": 14,
+    "MUA": 0,
+    "OH": 0,
+    "R4/CL-V & VI": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 14,
+    "Remarks\n(Demand details of VOR/EOA )": "01 x Loss in GLOF (Flood)"
+  }
+}

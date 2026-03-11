@@ -1,0 +1,21 @@
+{
+  "sheet": "Appx C C veh)",
+  "source_file": "Nov 2025 H.xlsx",
+  "columns": {
+    "Ser/Ser": 66,
+    "Category (Make & Type)": "C66",
+    "Dependency/Auth": 25,
+    "Dependency/Held": 27,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 0,
+    "NMC Due to/DRWO": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/Cl-V/ IV": 0,
+    "NMC (Nos)/NMC (Nos)": 0,
+    "PMC (Nos)/PMC (Nos)": 0,
+    "FMC (Nos)/FMC (Nos)": 27,
+    "Remarks/Remarks": "Fitted with Lrs & Comd Post Veh"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 15,
+    "Category (Make & Type)": "C15",
+    "Dependency/Auth (UE)": 1,
+    "Held (UH)": 2,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 0,
+    "Total NMC (Nos)": 1,
+    "FMC": 1,
+    "Remarks\n(Demand details of VOR/EOA )": "Eqpt off rd due to hyd portion demanded by unit"
+  }
+}

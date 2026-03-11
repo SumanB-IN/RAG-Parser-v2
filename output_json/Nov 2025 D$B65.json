@@ -1,0 +1,16 @@
+{
+  "sheet": "2 Appx A (B veh)",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 65,
+    "Category (Make & Type)": "B65",
+    "Dependency/Auth (UE)": 204,
+    "Dependency/Held (UH)": 207,
+    "MUA": 1,
+    "OH": 0,
+    "R4/ CL-V & VI": 3,
+    "Total": 4,
+    "FMC": 203,
+    "Remarks (To incl present loc of eqpt EOA)": "02 x Decl CL-V                                                                                                                                                                                                        01x loss in GLOF"
+  }
+}

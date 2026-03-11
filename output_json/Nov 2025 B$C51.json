@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser/Ser": 51,
+    "Category (Make & Type)/Category (Make & Type)": "C51",
+    "Dependency/Auth (UE)": 9,
+    "Dependency/Held (UH)": 5,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 1,
+    "FMC/FMC": 4,
+    "Remarks/Remarks": "01 x Eqpt EOA for out rigger cyl  assy demanded"
+  }
+}

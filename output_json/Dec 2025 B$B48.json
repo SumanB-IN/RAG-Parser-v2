@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 48,
+    "Category \n(Make & Type)": "B48",
+    "Dependency/Auth \n(UE)": 196,
+    "Held\n(UH)": 190,
+    "NMC Due to/MUA": 2,
+    "OH": 0,
+    "R4": 2,
+    "Total": 4,
+    "FMC": 186,
+    "Remarks": "02 x Veh eng demanded\n02 x Veh decl CL-V\n01 x FAT of 81 Fd Regt eng demanded with demand No 241000117 dt 08 Aug 2024 & Cont No 241028338 dt 03 Dec 2024 (Eng no longer being manufactured, Veh to be decl CL-V)."
+  }
+}

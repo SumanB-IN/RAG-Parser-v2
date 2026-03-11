@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B (B Veh)",
+  "source_file": "Dec 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 1,
+    "Category (Make & Type)/Category (Make & Type)": "B1",
+    "Dependency/Auth": 20,
+    "Dependency/Held": 10,
+    "NMC Due To/MUA": 1,
+    "NMC Due To/OH": 0,
+    "NMC Due To/R4/Cl-V": 0,
+    "NMC Due To/Total": 1,
+    "FMC/FMC": 9,
+    "Remarks/Remarks": "Eng assy decl BER due to internal crack . Half eng assy & Head Complete Cyl  demanded on 09 Oct 25"
+  }
+}

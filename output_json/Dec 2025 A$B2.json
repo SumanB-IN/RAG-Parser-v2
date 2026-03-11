@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 2,
+    "Category (Make & Type)": "B2",
+    "Dependency/Auth (UE)": 1718,
+    "Dependency/Held (UH)": 1583,
+    "MUA": 10,
+    "OH": 0,
+    "R4": 13,
+    "Total": 23,
+    "FMC": 1560,
+    "Remarks (To incl present loc of eqpt EOA)": "\nMUAs-10\n06 X Eng assy demanded\n01 x Wind Shield Glass Deamded\n01 x Axle assy demanded \n02 x Chassis cracked \n12 x CL V\n01 x Newly collected "
+  }
+}

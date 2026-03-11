@@ -1,0 +1,16 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 58,
+    "Category (Make & Type)": "B58",
+    "Dependency/Auth (UE)": 141,
+    "Dependency/Held (UH)": 46,
+    "MUA": 1,
+    "OH": 0,
+    "R4/ CL-V & VI": 5,
+    "Total": 6,
+    "FMC": 40,
+    "Remarks (To incl present loc of eqpt EOA)": "04 x Decl CL-V \n01 x CL VI (GLOF)                                                                                                          01 X Rear axle Dmd"
+  }
+}

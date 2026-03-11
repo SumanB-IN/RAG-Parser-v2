@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 52,
+    "Category (Make & Type)": "C52",
+    "Dependency/Auth (UE)": 12,
+    "Held (UH)": 12,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 0,
+    "Total NMC (Nos)": 1,
+    "FMC": 11,
+    "Remarks\n(Demand details of VOR/EOA )": "01x  Veh rection stop switch and mech stopper demanded"
+  }
+}

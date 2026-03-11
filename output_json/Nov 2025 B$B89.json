@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 89,
+    "Category (Make & Type)": "B89",
+    "Dependency/Auth \n(UE)": 0,
+    "Dependency/Held\n(UH)": 13,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 2,
+    "NMC Due to/Total": 2,
+    "FMC/FMC": 11,
+    "Remarks/Remarks": "01 x Veh DR raised due to eng oil mix with coolant\n01 x Veh decl CL-VI"
+  }
+}

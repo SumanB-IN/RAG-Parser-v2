@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 72,
+    "Category (Make & Type)": "B72",
+    "Dependency/Auth (UE)": 33,
+    "Dependency/Held (UH)": 176,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 1,
+    "Total": 1,
+    "FMC": 175,
+    "Remarks (To incl present loc of eqpt EOA)": "\n01 x TATA SAFARI (ACCIDENT VEH) IN R/O U32\nDECL CL-VI (SIX) ASSESSEMENT OF COST CARRIED OUT & COI COMPLETED & DOCU FWD TO LAO"
+  }
+}

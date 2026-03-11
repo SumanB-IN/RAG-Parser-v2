@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 56,
+    "Category \n(Make & Type)": "B56",
+    "Dependency/Auth \n(UE)": 56,
+    "Held\n(UH)": 92,
+    "NMC Due to/MUA": 0,
+    "OH": 0,
+    "R4": 14,
+    "Total": 14,
+    "FMC": 78,
+    "Remarks": "04 x Vehs DR raised, OEM team was to arrived for repair in the month of Dec 2025 however, still awaited for repair. \n10 x Vehs Defect report raised"
+  }
+}

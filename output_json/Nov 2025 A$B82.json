@@ -1,0 +1,18 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 82,
+    "Category (Make & Type)": "B82",
+    "Dependency/Auth (UE)": 81,
+    "Dependency/Held (UH)": 66,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 66,
+    "Remarks (To incl present loc of eqpt EOA)": "02 x Army bus Att included",
+    "column_11": 0,
+    "column_12": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser": 51,
+    "Category (Make & Type)": "C51",
+    "Dependency/Auth (UE)": 9,
+    "Held (UH)": 5,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC": 4,
+    "Remarks": "Outriger cyl assy recd from H3 and under fitment."
+  }
+}

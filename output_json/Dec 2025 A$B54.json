@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 54,
+    "Category (Make & Type)": "B54",
+    "Dependency/Auth (UE)": 1,
+    "Dependency/Held (UH)": 1,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 1,
+    "Remarks (To incl present loc of eqpt EOA)": 0
+  }
+}

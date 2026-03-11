@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 65,
+    "Category \n(Make & Type)": "B65",
+    "Dependency/Auth \n(UE)": 214,
+    "Held\n(UH)": 199,
+    "NMC Due to/MUA": 0,
+    "OH": 0,
+    "R4": 2,
+    "Total": 2,
+    "FMC": 197,
+    "Remarks": "01 x Cl-V Veh deposited\n01 x Veh DR was raised due to chassis bkn. New Chassis assy fitted at by Tata Agency and veh put on rd\n01 x Vehs newly issued to HQ S2 (MT) from 41 Veh Coy."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "C veh Appx C",
+  "source_file": "Dec 2025 E.xlsx",
+  "columns": {
+    "Ser No/Ser No": 7,
+    "Category (Make & Type)/Category (Make & Type)": "C72",
+    "Dependency/Auth (UE)": 6,
+    "Dependency/Held (UH)": 6,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 0,
+    "FMC/FMC": 6,
+    "Remarks/Remarks": 0
+  }
+}

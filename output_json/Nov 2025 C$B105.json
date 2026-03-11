@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 105,
+    "Category (Make & Type)": "B105",
+    "Dependency/Auth (UE)": 3,
+    "Dependency/Held (UH)": 3,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC/FMC": 3,
+    "Remarks/Remarks": 0
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 17,
+    "Category (Make & Type)": "C17",
+    "Dependency/Auth (UE)": 0,
+    "Held (UH)": 2,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 1,
+    "Total NMC (Nos)": 2,
+    "FMC": 0,
+    "Remarks\n(Demand details of VOR/EOA )": "\n02 x  CL VI "
+  }
+}

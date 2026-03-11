@@ -1,0 +1,26 @@
+{
+  "sheet": "B Veh",
+  "source_file": "Dec 2025 G.xlsx",
+  "columns": {
+    "Ser/Ser": 8,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "C98",
+    "Dependency/Auth (UE)": 0,
+    "Dependency/Held (UH)": 2,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 1,
+    "NMC Due to/OH": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/R4": 0,
+    "NMC Due to/OBE": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 1,
+    "PMC (Nos) \n(Due to OH)/PMC (Nos) \n(Due to OH)": 0,
+    "FMC/FMC": 1,
+    "NMC %/NMC %": 0.5,
+    "PMC%/PMC%": 0,
+    "FMC %/FMC %": 0.5,
+    "Avl %/Avl %": 0.5,
+    "Remarks/Remarks": "01 x Armature burn out. Armature rewinding under LRC."
+  }
+}

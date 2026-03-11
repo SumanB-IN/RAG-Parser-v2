@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 97,
+    "Category \n(Make & Type)": "B97",
+    "Dependency/Auth \n(UE)": 0,
+    "Held\n(UH)": 3,
+    "NMC Due to/MUA": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC": 2,
+    "Remarks": "01 x Veh off rd due to AC not working (U40)"
+  }
+}

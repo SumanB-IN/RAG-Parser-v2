@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 119,
+    "Category (Make & Type)": "B119",
+    "Dependency/Auth (UE)": 13,
+    "Dependency/Held (UH)": 12,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 1,
+    "Total": 1,
+    "FMC": 11,
+    "Remarks (To incl present loc of eqpt EOA)": "01 X CL-VI OF 58 ENGR REGT\n"
+  }
+}

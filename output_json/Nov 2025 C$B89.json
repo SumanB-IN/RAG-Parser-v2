@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 89,
+    "Category (Make & Type)": "B89",
+    "Dependency/Auth (UE)": 6,
+    "Dependency/Held (UH)": 19,
+    "MUA": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC/FMC": 18,
+    "Remarks/Remarks": "01 x Veh VOR due to Eng block bkn. Defct report  raised on 13 May 2025. Awaited  for JDI by AHSP."
+  }
+}

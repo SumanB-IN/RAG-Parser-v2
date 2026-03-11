@@ -1,0 +1,16 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 32,
+    "Category (Make & Type)": "B32",
+    "Dependency/Auth (UE)": 31,
+    "Dependency/Held (UH)": 18,
+    "MUA": 0,
+    "OH": 1,
+    "R4/ CL-V & VI": 1,
+    "Total": 2,
+    "FMC": 16,
+    "Remarks (To incl present loc of eqpt EOA)": "01 x Cl V/VI(01 x Accident veh)\n01x  under BOH at W6"
+  }
+}

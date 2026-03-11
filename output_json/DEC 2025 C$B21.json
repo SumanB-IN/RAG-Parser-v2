@@ -1,0 +1,17 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 21,
+    "Category (Make & Type)/Category (Make & Type)": "B21",
+    "Dependency/Auth (UE)": 108,
+    "Dependency/Held (UH)": 71,
+    "MUA": 1,
+    "OH": 2,
+    "R4": 0,
+    "Total": 3,
+    "FMC/FMC": 68,
+    "Remarks/Remarks": "01 x Eng assy demanded\n02 x Under BOH at W6",
+    "column_11": 0
+  }
+}

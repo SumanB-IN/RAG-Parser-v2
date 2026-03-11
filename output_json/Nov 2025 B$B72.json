@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 72,
+    "Category (Make & Type)": "B72",
+    "Dependency/Auth \n(UE)": 0,
+    "Dependency/Held\n(UH)": 167,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 1,
+    "NMC Due to/Total": 1,
+    "FMC/FMC": 166,
+    "Remarks/Remarks": "01x Cl -V under process"
+  }
+}

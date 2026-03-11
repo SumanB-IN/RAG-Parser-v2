@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser": 13,
+    "Category (Make & Type)": "C13",
+    "Dependency/Auth (UE)": 2,
+    "Held (UH)": 7,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 7,
+    "Remarks": "01 x Eqpt engine assy  repaired &  made SER."
+  }
+}

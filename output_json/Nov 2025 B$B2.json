@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 2,
+    "Category (Make & Type)": "B2",
+    "Dependency/Auth \n(UE)": 1898,
+    "Dependency/Held\n(UH)": 1378,
+    "NMC Due to/MUA": 5,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 15,
+    "NMC Due to/Total": 20,
+    "FMC/FMC": 1358,
+    "Remarks/Remarks": "01 x Eng rel collection under prog\n02 x Eng assy demanded\n01 x Air Compressor demanded\n01 x Crown wheel demanded\n06 x Veh Decl Cl-VI \n02 x Cl-V veh deposited U12\n08 x Veh decl Cl-V \n 01 x Veh of 10 Engr decl CL V and deposition under progress.\n"
+  }
+}

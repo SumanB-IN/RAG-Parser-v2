@@ -1,0 +1,27 @@
+{
+  "sheet": "Appx A (A veh)  ",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser/Ser": 12,
+    "Category (Make & Type)/Category (Make & Type)": "ARV VT-72B",
+    "Units": 0,
+    "Dependency/Auth (UE)": 0,
+    "Dependency/Held (UH)": 0,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/R4": 0,
+    "NMC Due to/OBE": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 0,
+    "PMC (Nos) \n(Due to OH)/PMC (Nos) \n(Due to OH)": 0,
+    "FMC/FMC": 0,
+    "NMC %/NMC %": 0,
+    "PMC%/PMC%": 0,
+    "FMC %/FMC %": 0,
+    "Avl %/Avl %": 0,
+    "Remarks (To incl present loc of eqpt EOA)/Remarks (To incl present loc of eqpt EOA)": 0
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "sheet": "B Veh",
+  "source_file": "Dec 2025 G.xlsx",
+  "columns": {
+    "Ser/Ser": 1,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "C20",
+    "Dependency/Auth (UE)": 4,
+    "Dependency/Held (UH)": 1,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 1,
+    "NMC Due to/Spares": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/R4": 0,
+    "NMC Due to/OBE": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 1,
+    "PMC (Nos) \n(Due to OH)/PMC (Nos) \n(Due to OH)": 0,
+    "FMC/FMC": 0,
+    "NMC %/NMC %": 1,
+    "PMC%/PMC%": 0,
+    "FMC %/FMC %": 0,
+    "Avl %/Avl %": 0,
+    "Remarks/Remarks": 0
+  }
+}

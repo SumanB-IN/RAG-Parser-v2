@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 65,
+    "Category (Make & Type)": "B65",
+    "Dependency/Auth \n(UE)": 214,
+    "Dependency/Held\n(UH)": 199,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 3,
+    "NMC Due to/Total": 3,
+    "FMC/FMC": 196,
+    "Remarks/Remarks": "02 x Veh decl Cl-V \n01 x Veh FUR raised for chassis cracked . FUR closed and dirns passed to VFJ to replace defective chassis. New chassis collected by user unit, awaiting for fitment."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 17,
+    "Category (Make & Type)": "C209",
+    "Dependency/Auth (UE)": 9,
+    "Held (UH)": 9,
+    "NMC Due to/MUA": 1,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 0,
+    "Total NMC (Nos)": 1,
+    "FMC": 8,
+    "Remarks\n(Demand Detls of VOR/EOA)": "M/s Accurate for AKASHTEER\n01 x Genr Set (Regd No 75)  faulty (overload) since 29 Oct 25."
+  }
+}

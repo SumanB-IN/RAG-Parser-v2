@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 3,
+    "Category \n(Make & Type)": "B3",
+    "Dependency/Auth \n(UE)": 2136,
+    "Held\n(UH)": 1635,
+    "NMC Due to/MUA": 6,
+    "OH": 0,
+    "R4": 17,
+    "Total": 23,
+    "FMC": 1612,
+    "Remarks": "04 x Veh eng demanded\n01 x Vehs put on rd after fitment of eng assy  \n01 x Veh Stg Gear Box demanded\n01 x Veh DR raised due to half shaft bkn\n17 x Vehs decl CL-V\n01 x  Veh Cabin assy collected and fitment under prog"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 87,
+    "Category (Make & Type)/Category (Make & Type)": "C77",
+    "Dependency/Auth (UE)": 36,
+    "Held (UH)": 35,
+    "MUA": 5,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 5,
+    "FMC/FMC": 30,
+    "Remarks\n(Demand details of VOR/EOA )/Remarks\n(Demand details of VOR/EOA )": "03 x Genr set under repair at W2 since 28 Jan 25 & 16 May 2025 respectively.\n02 x Genr set defective items fwd to W2 for repair on 11 Jun 2025."
+  }
+}

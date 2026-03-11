@@ -1,0 +1,16 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 49,
+    "Category (Make & Type)": "B49",
+    "Dependency/Auth (UE)": 27,
+    "Dependency/Held (UH)": 16,
+    "MUA": 0,
+    "OH": 0,
+    "R4/ CL-V & VI": 1,
+    "Total": 1,
+    "FMC": 15,
+    "Remarks (To incl present loc of eqpt EOA)": "01 x Decl Cl-V                                                                                                               "
+  }
+}

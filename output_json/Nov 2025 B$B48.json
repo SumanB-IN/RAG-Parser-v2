@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 48,
+    "Category (Make & Type)": "B48",
+    "Dependency/Auth \n(UE)": 196,
+    "Dependency/Held\n(UH)": 184,
+    "NMC Due to/MUA": 3,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 2,
+    "NMC Due to/Total": 5,
+    "FMC/FMC": 179,
+    "Remarks/Remarks": "02 x Eng assy demanded\n02 x Veh decl Cl-V \n01 x Veh of 81 Fd Regt eng demanded  (Eng no longer being manufactured, Veh to be decl CL-V)."
+  }
+}

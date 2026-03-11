@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 2,
+    "Category (Make & Type)": "B2",
+    "Dependency/Auth (UE)": 1222,
+    "Dependency/Held (UH)": 968,
+    "MUA": 2,
+    "OH": 0,
+    "R4": 0,
+    "Total": 2,
+    "FMC/FMC": 966,
+    "Remarks/Remarks": "01 x Eng Assy collected and fitted.\n02 x Eng Assy under demand\n17 x Auth Incresed due to new unit moved in orbit\n06 x Held incresed due to new unit moved in orbit\n02 x Held decresed due to decl CL-V"
+  }
+}

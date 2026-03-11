@@ -1,0 +1,21 @@
+{
+  "sheet": "Appx C C Veh)",
+  "source_file": "Dec 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 6,
+    "Category (Make & Type)/Category (Make & Type)": "C227",
+    "Dependency/Auth": 3,
+    "Dependency/Held": 3,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 0,
+    "NMC Due to/DRWO": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/Cl-V/ IV": 0,
+    "NMC (Nos)/NMC (Nos)": 0,
+    "PMC (Nos)/PMC (Nos)": 0,
+    "FMC (Nos)/FMC (Nos)": 3,
+    "Remarks/Remarks": "Fitted with Digicora Met Sys"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 1,
+    "Category (Make & Type)": "Maruti Gypsy 413W/MPFI",
+    "Dependency/Auth (UE)": 23,
+    "Dependency/Held (UH)": 16,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 16,
+    "Remarks (To incl present loc of eqpt EOA)": "02 x Maruti Jimny held against ACSFP Store.\n02 Bolero Pick up collected from 41 Veh coy Guwahati on 23 Oct 25 against ACSFP Store."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser": 15,
+    "Category (Make & Type)": "C15",
+    "Dependency/Auth (UE)": 1,
+    "Held (UH)": 4,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC": 3,
+    "Remarks": "01 x Eqpt EOA for rear wheel hub (60 Engr Regt) demanded"
+  }
+}

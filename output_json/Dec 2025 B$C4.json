@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser": 4,
+    "Category (Make & Type)": "C4",
+    "Dependency/Auth (UE)": 14,
+    "Held (UH)": 16,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC": 15,
+    "Remarks": "01 x Eqpt Stg Clutch assy demanded"
+  }
+}

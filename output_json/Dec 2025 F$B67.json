@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 10,
+    "Category (Make & Type)": "B67",
+    "Dependency/Auth (UE)": 0,
+    "Dependency/Held (UH)": 4,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 1,
+    "Total": 1,
+    "FMC": 3,
+    "Remarks\n(To incl present loc of eqpt EOA)": "Held excl 01 x W/B at Gopalpur.\n01 x veh ex 402 Lt AD Regt (Comp) downgraded to Cl-VI, being backloaded.\n01 x W/B ex 945 Lt AD Regt (Comp) Wksp newly collected on 24 Dec 25."
+  }
+}

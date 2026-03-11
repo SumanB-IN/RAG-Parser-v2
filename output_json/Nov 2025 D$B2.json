@@ -1,0 +1,16 @@
+{
+  "sheet": "2 Appx A (B veh)",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 2,
+    "Category (Make & Type)": "B2",
+    "Dependency/Auth (UE)": 2117,
+    "Dependency/Held (UH)": 1659,
+    "MUA": 20,
+    "OH": 0,
+    "R4/ CL-V & VI": 40,
+    "Total": 60,
+    "FMC": 1599,
+    "Remarks (To incl present loc of eqpt EOA)": "10 x Eng assy Dmd                                                                                                                                            10 x MUAs Dmd\n40 x Decl CL-V/VI                                    \n02 x Accidential Veh"
+  }
+}

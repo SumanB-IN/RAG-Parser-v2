@@ -1,0 +1,16 @@
+{
+  "sheet": "APPX C veh",
+  "source_file": "Nov 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 4,
+    "Category (Make & Type)": "C4",
+    "Dependency/Auth (UE)": 6,
+    "Dependency/Held (UH)": 1,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 0,
+    "FMC/FMC": 1,
+    "Remarks/Remarks": "01 x BD 50 Newely issued"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 3,
+    "Category (Make & Type)": "B3",
+    "Dependency/Auth \n(UE)": 2136,
+    "Dependency/Held\n(UH)": 1638,
+    "NMC Due to/MUA": 3,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 19,
+    "NMC Due to/Total": 22,
+    "FMC/FMC": 1616,
+    "Remarks/Remarks": "01 x Eng assy demanded\n01 x Steering Box demanded\n01 x Cabin assy demanded\n02 x Veh DR raised for half shaft bkn (U11, U12)\n15 x Vehs decl Cl-V \n02 x  Veh decl CL-VI \n07 x Veh newly issued to 71 IDSR\n01 x ALS new collection in r/o U28.\n02 x ALS Newly issued "
+  }
+}

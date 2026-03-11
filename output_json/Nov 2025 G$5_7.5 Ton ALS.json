@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 3,
+    "Category (Make & Type)": "5/7.5 Ton ALS ",
+    "Dependency/Auth (UE)": 17,
+    "Dependency/Held (UH)": 13,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 13,
+    "Remarks (To incl present loc of eqpt EOA)": 0
+  }
+}

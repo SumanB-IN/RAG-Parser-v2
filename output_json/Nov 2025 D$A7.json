@@ -1,0 +1,26 @@
+{
+  "sheet": "1 Appx A (A veh)  ",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser/Ser": 7,
+    "Category (Make & Type)/Category (Make & Type)": "A7",
+    "Dependency/Auth (UE)": 4,
+    "Dependency/Held (UH)": 4,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 1,
+    "NMC Due to/OH": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/R4": 0,
+    "NMC Due to/OBE": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 0,
+    "PMC (Nos) \n(Due to OH)/PMC (Nos) \n(Due to OH)": 1,
+    "FMC/FMC": 3,
+    "NMC %/NMC %": 0,
+    "PMC%/PMC%": 25,
+    "FMC %/FMC %": 75,
+    "Avl %/Avl %": 100,
+    "Remarks (To incl present loc of eqpt EOA)/Remarks (To incl present loc of eqpt EOA)": "(i) 01 x EOA for want of spares from H1/ F1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 78,
+    "Category \n(Make & Type)": "B78",
+    "Dependency/Auth \n(UE)": 33,
+    "Held\n(UH)": 108,
+    "NMC Due to/MUA": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC": 107,
+    "Remarks": "01 x Veh turbocharger oil leaking repair at agency (U11)"
+  }
+}

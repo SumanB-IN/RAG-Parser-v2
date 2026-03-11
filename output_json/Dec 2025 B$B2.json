@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 2,
+    "Category \n(Make & Type)": "B2",
+    "Dependency/Auth \n(UE)": 1898,
+    "Held\n(UH)": 1378,
+    "NMC Due to/MUA": 9,
+    "OH": 0,
+    "R4": 12,
+    "Total": 21,
+    "FMC": 1357,
+    "Remarks": "07 x Vehs eng demanded \n01 x Vehs put on rd after fitment of eng assy  \n01 x Veh Air Compressor demanded     \n02 x CL-V Vehs deposited\n10 x Vehs decl CL-V      \n01 x Veh Vane pump & Stg Gear Box demanded     \n02 x Vehs decl CL-VI\n02 x CL-V Vehs deposited                                                                                           "
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser/Ser": 15,
+    "Category (Make & Type)/Category (Make & Type)": "C15",
+    "Dependency/Auth (UE)": 1,
+    "Dependency/Held (UH)": 4,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 1,
+    "FMC/FMC": 3,
+    "Remarks/Remarks": "01 x Eqpt EOA for rear wheel hub demanded"
+  }
+}

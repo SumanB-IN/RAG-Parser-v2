@@ -1,0 +1,16 @@
+{
+  "sheet": "2 Appx A (B veh)",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 85,
+    "Category (Make & Type)": "B85",
+    "Dependency/Auth (UE)": 17,
+    "Dependency/Held (UH)": 14,
+    "MUA": 1,
+    "OH": 0,
+    "R4/ CL-V & VI": 0,
+    "Total": 1,
+    "FMC": 13,
+    "Remarks (To incl present loc of eqpt EOA)": "01 x Tlr of 963 TPT Pl ASC off Rd due to Boggy Bend"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "3 Appx A (C veh),",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 18,
+    "Category (Make & Type)": "C18",
+    "Dependency/Auth (UE)": 10,
+    "Held (UH)": 12,
+    "MUA": 1,
+    "OH": 0,
+    "R4/CL-V & VI": 0,
+    "Total NMC (Nos)": 1,
+    "FMC": 11,
+    "Remarks\n(Demand details of VOR/EOA )": "01x Gear box n/w parts under demand at unit level on 20 Feb 2024"
+  }
+}

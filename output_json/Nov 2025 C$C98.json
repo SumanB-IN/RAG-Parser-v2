@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 98,
+    "Category (Make & Type)": "C98",
+    "Dependency/Auth (UE)": 87,
+    "Held (UH)": 82,
+    "MUA": 3,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 3,
+    "FMC/FMC": 79,
+    "Remarks\n(Demand details of VOR/EOA )/Remarks\n(Demand details of VOR/EOA )": "01 x 30 KVA Gen Set fwd to Z2 for armature rewinding\n02 x CIN recd and road move sanction under progress\n"
+  }
+}

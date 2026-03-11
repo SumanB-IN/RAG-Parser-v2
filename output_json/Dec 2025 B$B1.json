@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 1,
+    "Category \n(Make & Type)": "B1",
+    "Dependency/Auth \n(UE)": 1387,
+    "Held\n(UH)": 861,
+    "NMC Due to/MUA": 10,
+    "OH": 0,
+    "R4": 10,
+    "Total": 20,
+    "FMC": 841,
+    "Remarks": "08 x Vehs eng demand\n01 x M/Gypsy transfer case assy under demand \n01 x Veh Cyl head assy demanded \n10 x Vehs decl CL-V"
+  }
+}

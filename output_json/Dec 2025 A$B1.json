@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 1,
+    "Category (Make & Type)": "B1",
+    "Dependency/Auth (UE)": 1429,
+    "Dependency/Held (UH)": 1009,
+    "MUA": 4,
+    "OH": 0,
+    "R4": 23,
+    "Total": 27,
+    "FMC": 982,
+    "Remarks (To incl present loc of eqpt EOA)": "MUAS-04\n03 x Eng assy demanded \n01 x Case assy Transmission Demanded\n23 x CL V\n01 x Veh deposited \n01 x MG Veh BA No 11B 110882L  decl  CL-V in r/o 132 SR on 30 Oct 2025.  Veh deposited and the RV not yet recd."
+  }
+}

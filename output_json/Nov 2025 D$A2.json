@@ -1,0 +1,26 @@
+{
+  "sheet": "1 Appx A (A veh)  ",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser/Ser": 2,
+    "Category (Make & Type)/Category (Make & Type)": "A2",
+    "Dependency/Auth (UE)": 4,
+    "Dependency/Held (UH)": 4,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 0,
+    "NMC Due to/OH": 2,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/R4": 0,
+    "NMC Due to/OBE": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 2,
+    "PMC (Nos) \n(Due to OH)/PMC (Nos) \n(Due to OH)": 0,
+    "FMC/FMC": 2,
+    "NMC %/NMC %": 50,
+    "PMC%/PMC%": 0,
+    "FMC %/FMC %": 50,
+    "Avl %/Avl %": 50,
+    "Remarks (To incl present loc of eqpt EOA)/Remarks (To incl present loc of eqpt EOA)": "(i) 02 x Tk T-72 Under BOH of U1"
+  }
+}

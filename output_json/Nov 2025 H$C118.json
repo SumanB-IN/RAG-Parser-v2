@@ -1,0 +1,21 @@
+{
+  "sheet": "Appx C C veh)",
+  "source_file": "Nov 2025 H.xlsx",
+  "columns": {
+    "Ser/Ser": 119,
+    "Category (Make & Type)": "C118",
+    "Dependency/Auth": 0,
+    "Dependency/Held": 2,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 0,
+    "NMC Due to/DRWO": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/Cl-V/ IV": 0,
+    "NMC (Nos)/NMC (Nos)": 0,
+    "PMC (Nos)/PMC (Nos)": 0,
+    "FMC (Nos)/FMC (Nos)": 2,
+    "Remarks/Remarks": 0
+  }
+}

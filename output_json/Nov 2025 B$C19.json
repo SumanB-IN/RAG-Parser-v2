@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser/Ser": 19,
+    "Category (Make & Type)/Category (Make & Type)": "C19",
+    "Dependency/Auth (UE)": 6,
+    "Dependency/Held (UH)": 8,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 2,
+    "Nos of Eqpt EOA Due to/Total": 2,
+    "FMC/FMC": 6,
+    "Remarks/Remarks": "02 x SSL decl Cl-VI \nAll connected docu fwd to ESD Kankinara for MRP fixation vide 60 Engr Regt letter No 6706/38/ME dt 30 May 2024."
+  }
+}

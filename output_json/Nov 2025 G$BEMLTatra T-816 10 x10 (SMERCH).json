@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 42,
+    "Category (Make & Type)": "BEMLTatra T-816 10 x10 (SMERCH)",
+    "Dependency/Auth (UE)": 24,
+    "Dependency/Held (UH)": 26,
+    "MUA": 2,
+    "OH": 0,
+    "R4": 0,
+    "Total": 2,
+    "FMC": 24,
+    "Remarks (To incl present loc of eqpt EOA)": "02 x VOR for Electronic Control Unit (ECU) demanded for TLV & LV."
+  }
+}

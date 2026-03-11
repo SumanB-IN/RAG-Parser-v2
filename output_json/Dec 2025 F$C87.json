@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 6,
+    "Category (Make & Type)": "C87",
+    "Dependency/Auth (UE)": 0,
+    "Held (UH)": 2,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 2,
+    "Remarks\n(Demand Detls of VOR/EOA)": "DG Set for TC REPORTER Rdr"
+  }
+}

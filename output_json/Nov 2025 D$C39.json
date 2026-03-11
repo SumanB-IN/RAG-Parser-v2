@@ -1,0 +1,16 @@
+{
+  "sheet": "3 Appx A (C veh),",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 39,
+    "Category (Make & Type)": "C39",
+    "Dependency/Auth (UE)": 6,
+    "Held (UH)": 12,
+    "MUA": 0,
+    "OH": 0,
+    "R4/CL-V & VI": 6,
+    "Total NMC (Nos)": 6,
+    "FMC": 6,
+    "Remarks\n(Demand details of VOR/EOA )": "03x MML decl Cl-VI and MRP fixation letter fwd to ESD Kankinara vy U42.            \n03x MML of U42 decl Cl- VI"
+  }
+}

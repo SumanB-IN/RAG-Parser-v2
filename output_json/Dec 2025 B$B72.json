@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 72,
+    "Category \n(Make & Type)": "B72",
+    "Dependency/Auth \n(UE)": 56,
+    "Held\n(UH)": 159,
+    "NMC Due to/MUA": 0,
+    "OH": 0,
+    "R4": 1,
+    "Total": 1,
+    "FMC": 158,
+    "Remarks": "01 x TATA Safari repaired at Tata agency (U18)\n01 x Veh decl CL-V"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "3 Appx A (C veh),",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 73,
+    "Category (Make & Type)": "C73",
+    "Dependency/Auth (UE)": 19,
+    "Held (UH)": 75,
+    "MUA": 0,
+    "OH": 0,
+    "R4/CL-V & VI": 1,
+    "Total NMC (Nos)": 1,
+    "FMC": 74,
+    "Remarks\n(Demand details of VOR/EOA )": "01 x BER  \n01 x Loss in GLOF (Flood)"
+  }
+}

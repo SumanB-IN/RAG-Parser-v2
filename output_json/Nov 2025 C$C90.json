@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 90,
+    "Category (Make & Type)": "C90",
+    "Dependency/Auth (UE)": 6,
+    "Held (UH)": 6,
+    "MUA": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 1,
+    "FMC/FMC": 5,
+    "Remarks\n(Demand details of VOR/EOA )/Remarks\n(Demand details of VOR/EOA )": "01 x Genr set under repair at W2 since 12 Apr 2025.\n"
+  }
+}

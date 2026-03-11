@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 46,
+    "Category (Make & Type)": "B46",
+    "Dependency/Auth \n(UE)": 0,
+    "Dependency/Held\n(UH)": 54,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 9,
+    "NMC Due to/Total": 9,
+    "FMC/FMC": 45,
+    "Remarks/Remarks": "09x Follow Up Report Raised"
+  }
+}

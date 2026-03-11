@@ -1,0 +1,17 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 48,
+    "Category (Make & Type)/Category (Make & Type)": "B48",
+    "Dependency/Auth (UE)": 368,
+    "Dependency/Held (UH)": 299,
+    "MUA": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC/FMC": 298,
+    "Remarks/Remarks": "01 x Eng assy collected and Veh put on road\n03 x FAT decl CL V and deposited at RVDP Panagarh",
+    "column_11": 3.0
+  }
+}

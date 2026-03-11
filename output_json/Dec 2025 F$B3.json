@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 3,
+    "Category (Make & Type)": "B3",
+    "Dependency/Auth (UE)": 36,
+    "Dependency/Held (UH)": 30,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 30,
+    "Remarks\n(To incl present loc of eqpt EOA)": "Held excl 04 x veh at Gopalpur."
+  }
+}

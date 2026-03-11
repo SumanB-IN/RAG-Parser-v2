@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B veh",
+  "source_file": "Dec 2025 E.xlsx",
+  "columns": {
+    "Ser No/Ser No": 8,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "B48",
+    "Auth \n(UE)/Auth \n(UE)": 30,
+    "Held\n(UH)/Held\n(UH)": 35,
+    "NMC Due to/MUA": 1,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 0,
+    "NMC Due to/Total": 1,
+    "FMC/FMC": 34,
+    "Remarks/Remarks": "01 x Engine under demand."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 H.xlsx",
+  "columns": {
+    "Ser No": 8,
+    "Category (Make & Type)": "B42",
+    "Dependency/Auth (UE)": 24,
+    "Dependency/Held (UH)": 26,
+    "MUA": 2,
+    "OH": 0,
+    "R4": 0,
+    "Total": 2,
+    "FMC": 24,
+    "Remarks (To incl present loc of eqpt EOA)": "02 x VOR for Electronic Control Unit (ECU) demanded for TLV & LV."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 63,
+    "Category (Make & Type)": "B63",
+    "Dependency/Auth (UE)": 100,
+    "Dependency/Held (UH)": 101,
+    "MUA": 2,
+    "OH": 0,
+    "R4": 5,
+    "Total": 7,
+    "FMC": 94,
+    "Remarks (To incl present loc of eqpt EOA)": "MUA - 01\n01 x Eng assy Demanded\n01 x LRV DR raised on 20 Sep 24.\n04 x CL V\n01 x Accident Veh decl CL-V"
+  }
+}

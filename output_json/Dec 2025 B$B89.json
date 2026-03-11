@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 89,
+    "Category \n(Make & Type)": "B89",
+    "Dependency/Auth \n(UE)": 0,
+    "Held\n(UH)": 13,
+    "NMC Due to/MUA": 0,
+    "OH": 0,
+    "R4": 2,
+    "Total": 2,
+    "FMC": 11,
+    "Remarks": "01 x Veh (DR raised) repaired by OEM\n01 x accident Veh\n01 x off rd due Rpm not maintain"
+  }
+}

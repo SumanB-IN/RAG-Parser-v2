@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 78,
+    "Category (Make & Type)": "Genr Set 11.2 KVA (M/s Kirloskar) (Commerical)",
+    "Dependency/Auth (UE)": 5,
+    "Held (UH)": 2,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 2,
+    "Remarks\n(Demand details of VOR/EOA )": 0
+  }
+}

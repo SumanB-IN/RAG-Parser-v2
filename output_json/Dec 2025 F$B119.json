@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 19,
+    "Category (Make & Type)": "B119",
+    "Dependency/Auth (UE)": 2,
+    "Dependency/Held (UH)": 1,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 1,
+    "Remarks\n(To incl present loc of eqpt EOA)": "Tlr for 5.6 kW Charging Set"
+  }
+}

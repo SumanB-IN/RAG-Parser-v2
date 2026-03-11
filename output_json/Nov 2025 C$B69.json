@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 69,
+    "Category (Make & Type)": "B69",
+    "Dependency/Auth (UE)": 266,
+    "Dependency/Held (UH)": 241,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC/FMC": 241,
+    "Remarks/Remarks": "02 x Held Incresed due to newly issued "
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 69,
+    "Category (Make & Type)": "M/C 350CC RE",
+    "Dependency/Auth (UE)": 1,
+    "Dependency/Held (UH)": 1,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 1,
+    "Remarks (To incl present loc of eqpt EOA)": 0
+  }
+}

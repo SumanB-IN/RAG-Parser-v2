@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 51,
+    "Category (Make & Type)": "C51",
+    "Dependency/Auth (UE)": 9,
+    "Held (UH)": 7,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 0,
+    "Total NMC (Nos)": 1,
+    "FMC": 6,
+    "Remarks\n(Demand details of VOR/EOA )": "\n01x veh hyd seal demaned \n"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "B VEH",
+  "source_file": "Dec 2025 K.xlsx",
+  "columns": {
+    "Ser No/Ser No": 94,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "B94",
+    "Auth \n(UE)/Auth \n(UE)": 3,
+    "Held\n(UH)/Held\n(UH)": "-",
+    "NMC Due to/MUA": "-",
+    "NMC Due to/OH": "-",
+    "NMC Due to/R4": "-",
+    "NMC Due to/Total": "-",
+    "FMC/FMC": "-",
+    "Remarks/Remarks": 0
+  }
+}

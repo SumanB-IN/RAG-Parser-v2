@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 10,
+    "Category (Make & Type)": "B10",
+    "Dependency/Auth \n(UE)": 0,
+    "Dependency/Held\n(UH)": 28,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 6,
+    "NMC Due to/Total": 6,
+    "FMC/FMC": 22,
+    "Remarks/Remarks": "*01 x LSpV of U11  off rd due to stg pipe leaking since 27 Aug 25.\n\n*01 x LSpV of U11 is PMC due to AC sys faulty since 30 Aug 25.\n\n*01 x LSpV of U18  is off rd due to pulling power weak since 11 Sep 25.\n\n*01 x LSpV of U12  is off rd due to Parking brake not work since 28 Sep 2025. Intimated to OEM for repair.\n\n*01 x LSpV of U19 is off rd due to Pulling power weak & Steering hard since 13 Oct 2025. Intimated to OEM for repair.\n\n*01 x LSpV of U18 is off rd due to Windshield cracked since 13 Oct 2025. Intimated to OEM for repair.\nNote :- (OEM likely to arrive at Tawang by 1st week of Dec 2025 for repair of defective vehs) "
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser/Ser": 3,
+    "Category (Make & Type)/Category (Make & Type)": "C3",
+    "Dependency/Auth (UE)": 7,
+    "Dependency/Held (UH)": 9,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 2,
+    "Nos of Eqpt EOA Due to/Total": 2,
+    "FMC/FMC": 7,
+    "Remarks/Remarks": "02 x Eqpt decl  CL-VI"
+  }
+}

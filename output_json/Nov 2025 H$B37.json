@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B (B veh)",
+  "source_file": "Nov 2025 H.xlsx",
+  "columns": {
+    "Ser/Ser": 37,
+    "Category (Make & Type)": "B37",
+    "Dependency/Auth": 52,
+    "Dependency/Held": 57,
+    "NMC Due To/MUA": "*1+@1",
+    "NMC Due To/OH": 0,
+    "NMC Due To/R4/Cl-V": 0,
+    "NMC Due To/Total": 2,
+    "FMC/FMC": 55,
+    "Remarks/Remarks": "* 01 X LCR Crack on Chassis. DR raised on 20 Sep 22 J43atra 8x8 /EME Recap Sys-5 dt 28 Mar 2025. \n508 ABW intimated that the Chassis and associated spares are likely to besupplied by Nov 25 and the veh to be fwd to W6 for subject replacement vide letter No 70306/DRWO/P&P dt 08 Nov 25.\nThe veh being fwd to W6.\n@ 1 x Eng Assy of RV decl BER due to excessive wot in all cyl. New eng assy demanded on 27 Oct 25."
+  }
+}

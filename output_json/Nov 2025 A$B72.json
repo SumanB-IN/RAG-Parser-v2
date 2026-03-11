@@ -1,0 +1,18 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 72,
+    "Category (Make & Type)": "B72",
+    "Dependency/Auth (UE)": 9,
+    "Dependency/Held (UH)": 142,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 1,
+    "Total": 1,
+    "FMC": 141,
+    "Remarks (To incl present loc of eqpt EOA)": "\n01 x TATA SAFARI (ACCIDENT VEH) \nDECL CL-VI (SIX) ASSESSEMENT OF COST CARRIED OUT & COI UNDER PROGRESS\n ",
+    "column_11": 0,
+    "column_12": 0
+  }
+}

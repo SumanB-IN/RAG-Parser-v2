@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 91,
+    "Category (Make & Type)": "B91",
+    "Dependency/Auth (UE)": 57,
+    "Dependency/Held (UH)": 175,
+    "MUA": 4,
+    "OH": 9,
+    "R4": 0,
+    "Total": 13,
+    "FMC": 162,
+    "Remarks (To incl present loc of eqpt EOA)": "09 x CBR at Z3\n2 x DR Raised\n2 x Under repair atb wksp."
+  }
+}

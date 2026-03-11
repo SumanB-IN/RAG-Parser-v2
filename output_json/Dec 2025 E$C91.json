@@ -1,0 +1,16 @@
+{
+  "sheet": "C veh Appx C",
+  "source_file": "Dec 2025 E.xlsx",
+  "columns": {
+    "Ser No/Ser No": 9,
+    "Category (Make & Type)/Category (Make & Type)": "C91",
+    "Dependency/Auth (UE)": 18,
+    "Dependency/Held (UH)": 11,
+    "Nos of Eqpt EOA Due to/MUAs": 2,
+    "Nos of Eqpt EOA Due to/OH": 2,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 4,
+    "FMC/FMC": 7,
+    "Remarks/Remarks": "•\t01 x MG Set Regd No SO69 under base repair at 509 ABW due to Engine Timing Belt broken wef 18 Jun 2025.  Present status :(Present Status : (MG Set made ser will be collected by Jan 2026 alongwith BOH Rdr PDC ) .\n\n* 01 x MG Set Regd No SO-052 Fwd to 509 ABW for Base Repair on 20 Jul 2025 due to Engine Produce White Smoke, WH1, WH2 Cable Faulty, AVR, Control Panel Faulty. MG Set made Ser will be collected in sJan 2026.\n\n01x MG Set Regd No SO-075 Fwd to 509 ABW for BOH on 20 Jul 2025 (Present Status : MG Set made ser )\n\n01 x MG Set Regd No SO-294 MG set Fwd to 509 ABW for BOH on 20 Jul 2025 : (Present Status : (MG Set made ser will be collected by Jan 2026)."
+  }
+}

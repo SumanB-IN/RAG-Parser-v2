@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser/Ser": 13,
+    "Category (Make & Type)/Category (Make & Type)": "C13",
+    "Dependency/Auth (UE)": 2,
+    "Dependency/Held (UH)": 7,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 1,
+    "FMC/FMC": 6,
+    "Remarks/Remarks": "01 x Eqpt under repair at Wksp"
+  }
+}

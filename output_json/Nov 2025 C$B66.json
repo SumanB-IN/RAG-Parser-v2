@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 66,
+    "Category (Make & Type)": "B66",
+    "Dependency/Auth (UE)": 179,
+    "Dependency/Held (UH)": 117,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC/FMC": 117,
+    "Remarks/Remarks": "05 x Auth Incresed due to new unit moved in orbit"
+  }
+}

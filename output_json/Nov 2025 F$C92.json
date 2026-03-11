@@ -1,0 +1,16 @@
+{
+  "sheet": "C Veh Appx C",
+  "source_file": "Nov 2025 F.xlsx",
+  "columns": {
+    "Ser No/Ser No": 92,
+    "Category (Make & Type)": "C92",
+    "Dependency/Auth (UE)": 0,
+    "Dependency/Held (UH)": 0,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 0,
+    "FMC/FMC": 0,
+    "Remarks/Remarks": 0
+  }
+}

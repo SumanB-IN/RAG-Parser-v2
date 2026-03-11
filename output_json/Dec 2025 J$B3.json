@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B (B Veh)",
+  "source_file": "Dec 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 3,
+    "Category (Make & Type)/Category (Make & Type)": "B3",
+    "Dependency/Auth": 17,
+    "Dependency/Held": "17*",
+    "NMC Due To/MUA": "1@",
+    "NMC Due To/OH": 0,
+    "NMC Due To/R4/Cl-V": "1#",
+    "NMC Due To/Total": 1,
+    "FMC/FMC": 16,
+    "Remarks/Remarks": "03* x Digicora mtd (held in lieu of HMV 4x4).\n01# x Downgraded to Cl-V. Being backloaded.\n01@ x Eng assy decl BER due to wot in all cylender. Eng assy demanded on 22 Dec 25"
+  }
+}

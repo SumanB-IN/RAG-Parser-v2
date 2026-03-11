@@ -1,0 +1,17 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 17,
+    "Category (Make & Type)/Category (Make & Type)": "B17",
+    "Dependency/Auth (UE)": 30,
+    "Dependency/Held (UH)": 29,
+    "MUA": 1,
+    "OH": 2,
+    "R4": 0,
+    "Total": 3,
+    "FMC/FMC": 26,
+    "Remarks/Remarks": "02 x Scania under BOH at W5 since 06 Mar 2025 & 19 Jun 2025.\n01 x Gear Box Assy under OH at W5 since 05 Oct 2024. Further W5 proposed for BER.",
+    "column_11": 0
+  }
+}

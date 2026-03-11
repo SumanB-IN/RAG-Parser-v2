@@ -1,0 +1,26 @@
+{
+  "sheet": "B Veh",
+  "source_file": "Dec 2025 G.xlsx",
+  "columns": {
+    "Ser/Ser": 9,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "Maruti Alto",
+    "Dependency/Auth (UE)": 0,
+    "Dependency/Held (UH)": 0,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 0,
+    "NMC Due to/R4": 0,
+    "NMC Due to/OBE": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 0,
+    "PMC (Nos) \n(Due to OH)/PMC (Nos) \n(Due to OH)": 0,
+    "FMC/FMC": 0,
+    "NMC %/NMC %": "-",
+    "PMC%/PMC%": "-",
+    "FMC %/FMC %": 0,
+    "Avl %/Avl %": "-",
+    "Remarks/Remarks": 0
+  }
+}

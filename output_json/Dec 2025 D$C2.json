@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 2,
+    "Category (Make & Type)": "C2",
+    "Dependency/Auth (UE)": 10,
+    "Held (UH)": 18,
+    "MUA": 2,
+    "OH": 0,
+    "R4/CL-V & VI": 0,
+    "Total NMC (Nos)": 2,
+    "FMC": 16,
+    "Remarks\n(Demand details of VOR/EOA )": "01 x Track shoe assy demanded by user unit (C No - M/2070 dt 29 Apr 2024\n01 x Gear box Dmd"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 84,
+    "Category (Make & Type)": "Alternator 18 KW (Yanmar) (Smerch Amn Sys)",
+    "Dependency/Auth (UE)": 3,
+    "Held (UH)": 3,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 3,
+    "Remarks\n(Demand details of VOR/EOA )": "Fitted on MRS"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 62,
+    "Category (Make & Type)": "B62",
+    "Dependency/Auth (UE)": 13,
+    "Dependency/Held (UH)": 10,
+    "MUA": 1,
+    "OH": 2,
+    "R4/ CL-V & VI": 0,
+    "Total": 3,
+    "FMC": 7,
+    "Remarks (To incl present loc of eqpt EOA)": "01 x MUA Dmd\n02 x HRV AV-15 under BOH "
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser/Ser": 2,
+    "Category (Make & Type)/Category (Make & Type)": "C2",
+    "Dependency/Auth (UE)": 17,
+    "Dependency/Held (UH)": 16,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 1,
+    "Nos of Eqpt EOA Due to/Total": 1,
+    "FMC/FMC": 15,
+    "Remarks/Remarks": "01 x Dozer decl to CL-VI"
+  }
+}

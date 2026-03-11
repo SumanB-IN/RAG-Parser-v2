@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser": 20,
+    "Category (Make & Type)": "C20",
+    "Dependency/Auth (UE)": 0,
+    "Held (UH)": 43,
+    "Nos of Eqpt EOA Due to/MUAs": 1,
+    "OH": 0,
+    "R4": 1,
+    "Total": 2,
+    "FMC": 41,
+    "Remarks": "01 x SSL stopper switch faulty, spare under LP (U18)\n01 x off rd due to Tyre tube demand"
+  }
+}

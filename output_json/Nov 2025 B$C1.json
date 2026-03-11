@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser/Ser": 1,
+    "Category (Make & Type)/Category (Make & Type)": "C1",
+    "Dependency/Auth (UE)": 10,
+    "Dependency/Held (UH)": 8,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 2,
+    "Nos of Eqpt EOA Due to/R4": 1,
+    "Nos of Eqpt EOA Due to/Total": 3,
+    "FMC/FMC": 5,
+    "Remarks/Remarks": "01 x Dozer under MLOH at W5 since 12 Dec 2024                              01 x Dozer under MLOH at W5 since 17 Jun 2025    \n01 x Dozer decl BER"
+  }
+}

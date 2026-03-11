@@ -1,0 +1,16 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 3,
+    "Category (Make & Type)": "B3",
+    "Dependency/Auth (UE)": 1961,
+    "Dependency/Held (UH)": 1799,
+    "MUA": 15,
+    "OH": 0,
+    "R4/ CL-V & VI": 68,
+    "Total": 83,
+    "FMC": 1716,
+    "Remarks (To incl present loc of eqpt EOA)": "50 x CL-V/VI (05 x ALS loss in GLOF)\n09 x Eng assy demanded \n06 x MUAs Dmd"
+  }
+}

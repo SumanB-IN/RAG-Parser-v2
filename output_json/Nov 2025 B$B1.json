@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 1,
+    "Category (Make & Type)": "B1",
+    "Dependency/Auth \n(UE)": 1387,
+    "Dependency/Held\n(UH)": 861,
+    "NMC Due to/MUA": 3,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 11,
+    "NMC Due to/Total": 14,
+    "FMC/FMC": 847,
+    "Remarks/Remarks": "03 x Vehs put on rd after fitment of new eng assy \n01 x Veh new eng collected and fitment under progress \n01 x Cl-V veh deposited \n02 x Veh eng assy demanded\n01x Veh of 313 Fd Regt decl CL-V and veh deposition under progress\n10 x Vehs decl CL-V"
+  }
+}

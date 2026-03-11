@@ -1,0 +1,17 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 3,
+    "Category (Make & Type)/Category (Make & Type)": "B3",
+    "Dependency/Auth (UE)": 1851,
+    "Dependency/Held (UH)": 1532,
+    "MUA": 5,
+    "OH": 0,
+    "R4": 0,
+    "Total": 5,
+    "FMC/FMC": 1527,
+    "Remarks/Remarks": "02 x Eng assy demanded\n02 x Main Gear Box assy demand\n01 x Cabin assy  demand \n01 x Held incresed due to newly collected ",
+    "column_11": 0
+  }
+}

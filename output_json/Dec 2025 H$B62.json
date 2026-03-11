@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 H.xlsx",
+  "columns": {
+    "Ser No": 12,
+    "Category (Make & Type)": "B62",
+    "Dependency/Auth (UE)": 3,
+    "Dependency/Held (UH)": 2,
+    "MUA": 1,
+    "OH": 0,
+    "R4": 0,
+    "Total": 1,
+    "FMC": 1,
+    "Remarks (To incl present loc of eqpt EOA)": "01x veh EOA due to Crane Portion UNSV. Case has been taken up for incl in BOH. Consideration for incl in yr 2026-27 has been recd vide hQ BWG letter No 70303/HRV AV-15/P1B dt 26 Jun 2025."
+  }
+}

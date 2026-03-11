@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 7,
+    "Category (Make & Type)": "C117",
+    "Dependency/Auth (UE)": 13,
+    "Held (UH)": 11,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 11,
+    "Remarks\n(Demand Detls of VOR/EOA)": "M/s Greaves\nHeld excl 02 x Genr at Gopalpur "
+  }
+}

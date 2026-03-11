@@ -1,0 +1,16 @@
+{
+  "sheet": "APPX C veh",
+  "source_file": "Nov 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 2,
+    "Category (Make & Type)": "C2",
+    "Dependency/Auth (UE)": 15,
+    "Dependency/Held (UH)": 8,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 2,
+    "Nos of Eqpt EOA Due to/Total": 2,
+    "FMC/FMC": 6,
+    "Remarks/Remarks": "(i) 01 x Dozer BD-80 decl  CL-VI vide AO 293/73  approved by Brig EME S4\n(ii) 01x Dozer BD -80  decl CL-VI vide AO-293/73 vide our Letter No- 70303/Cl-VI/Wksp dt 04 Feb 2025   \n"
+  }
+}

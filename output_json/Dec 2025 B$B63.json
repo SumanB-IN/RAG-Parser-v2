@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 63,
+    "Category \n(Make & Type)": "B63",
+    "Dependency/Auth \n(UE)": 104,
+    "Held\n(UH)": 98,
+    "NMC Due to/MUA": 0,
+    "OH": 1,
+    "R4": 5,
+    "Total": 6,
+    "FMC": 92,
+    "Remarks": "01 x Veh newly issued (U65) - winch rope bkn, info OEM for under wty replacement\n02 x Vehs decl Cl-V (U40 Engr Regt ) \n01x Decl CL-V        \n01x Veh decl Cl -V\n01 x Veh of 857 FWC decl CL V and veh under deposition."
+  }
+}

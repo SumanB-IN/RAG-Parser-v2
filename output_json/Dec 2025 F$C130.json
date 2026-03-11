@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 10,
+    "Category (Make & Type)": "C130",
+    "Dependency/Auth (UE)": 11,
+    "Held (UH)": 7,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 7,
+    "Remarks\n(Demand Detls of VOR/EOA)": "Held excl 02 x Chg Set at Gopalpur "
+  }
+}

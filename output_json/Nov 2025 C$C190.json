@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 190,
+    "Category (Make & Type)": "C190",
+    "Dependency/Auth (UE)": 1,
+    "Held (UH)": 5,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 0,
+    "FMC/FMC": 5,
+    "Remarks\n(Demand details of VOR/EOA )/Remarks\n(Demand details of VOR/EOA )": "01 x Auth incresed due to new unit move in orbit"
+  }
+}

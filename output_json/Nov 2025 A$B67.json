@@ -1,0 +1,18 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 67,
+    "Category (Make & Type)": "B67",
+    "Dependency/Auth (UE)": 26,
+    "Dependency/Held (UH)": 40,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 1,
+    "Total": 1,
+    "FMC": 39,
+    "Remarks (To incl present loc of eqpt EOA)": "01 x CL-V Veh Awaitig for disposal\n",
+    "column_11": 0,
+    "column_12": 0
+  }
+}

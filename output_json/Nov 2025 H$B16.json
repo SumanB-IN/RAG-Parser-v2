@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B (B veh)",
+  "source_file": "Nov 2025 H.xlsx",
+  "columns": {
+    "Ser/Ser": 16,
+    "Category (Make & Type)": "B16",
+    "Dependency/Auth": 0,
+    "Dependency/Held": 0,
+    "NMC Due To/MUA": 0,
+    "NMC Due To/OH": 0,
+    "NMC Due To/R4/Cl-V": 0,
+    "NMC Due To/Total": 0,
+    "FMC/FMC": 0,
+    "Remarks/Remarks": 0
+  }
+}

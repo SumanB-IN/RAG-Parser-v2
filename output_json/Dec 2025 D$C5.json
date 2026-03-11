@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 5,
+    "Category (Make & Type)": "C5",
+    "Dependency/Auth (UE)": 23,
+    "Held (UH)": 20,
+    "MUA": 0,
+    "OH": 0,
+    "R4/CL-V & VI": 1,
+    "Total NMC (Nos)": 1,
+    "FMC": 19,
+    "Remarks\n(Demand details of VOR/EOA )": "01x CL-VI (Docu under process)"
+  }
+}

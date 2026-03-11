@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 63,
+    "Category (Make & Type)": "B63",
+    "Dependency/Auth \n(UE)": 104,
+    "Dependency/Held\n(UH)": 98,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 6,
+    "NMC Due to/Total": 6,
+    "FMC/FMC": 92,
+    "Remarks/Remarks": "05 x Vehs decl Cl-V \n01 x LRV decl CL V and deposition under progress"
+  }
+}

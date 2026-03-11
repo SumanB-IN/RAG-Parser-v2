@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 G.xlsx",
+  "columns": {
+    "Ser No": 72,
+    "Category (Make & Type)": "TATA Safari Storme GS 800 (4x4)",
+    "Dependency/Auth (UE)": 0,
+    "Dependency/Held (UH)": 2,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC": 2,
+    "Remarks (To incl present loc of eqpt EOA)": 0
+  }
+}

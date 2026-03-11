@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 98,
+    "Category (Make & Type)/Category (Make & Type)": "C88",
+    "Dependency/Auth (UE)": 87,
+    "Held (UH)": 82,
+    "MUA": 3,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 3,
+    "FMC/FMC": 79,
+    "Remarks\n(Demand details of VOR/EOA )/Remarks\n(Demand details of VOR/EOA )": "01 x 30 KVA Gen Set fwd to Z2 for armature rewinding\n02 x Gen under repair at Z2"
+  }
+}

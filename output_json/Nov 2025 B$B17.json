@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 17,
+    "Category (Make & Type)": "B17",
+    "Dependency/Auth \n(UE)": 90,
+    "Dependency/Held\n(UH)": 84,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 3,
+    "NMC Due to/R4": 5,
+    "NMC Due to/Total": 8,
+    "FMC/FMC": 76,
+    "Remarks/Remarks": "03 x Vehs VOR for Gear Box under OH (02 x W5 & 01 x Z2)\n 01 x Veh off rd for eng, to be fwd to W5.\n04 x Vehs decl CL -V"
+  }
+}

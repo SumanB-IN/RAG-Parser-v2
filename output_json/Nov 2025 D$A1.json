@@ -1,0 +1,26 @@
+{
+  "sheet": "1 Appx A (A veh)  ",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser/Ser": 1,
+    "Category (Make & Type)/Category (Make & Type)": "A1",
+    "Dependency/Auth (UE)": 41,
+    "Dependency/Held (UH)": 37,
+    "NMC Due to/Eng": 0,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/Spares": 1,
+    "NMC Due to/OH": 0,
+    "NMC Due to/MR": 0,
+    "NMC Due to/FR": 20,
+    "NMC Due to/R4": 0,
+    "NMC Due to/OBE": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 0,
+    "PMC (Nos) \n(Due to OH)/PMC (Nos) \n(Due to OH)": 21,
+    "FMC/FMC": 16,
+    "NMC %/NMC %": 0,
+    "PMC%/PMC%": 56.75675675675676,
+    "FMC %/FMC %": 43.24324324324324,
+    "Avl %/Avl %": 100,
+    "Remarks (To incl present loc of eqpt EOA)/Remarks (To incl present loc of eqpt EOA)": "20 x DRWOs fwd to W2/ W1.\n01 x EOA for want of spares from H1/ F1\n01 x Defect Report raised, investigation carried out wef 3-11 Nov 25 in unit loc by team ex GCF Jabalpur. "
+  }
+}

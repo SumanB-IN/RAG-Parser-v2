@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 21,
+    "Category (Make & Type)": "B21",
+    "Dependency/Auth (UE)": 32,
+    "Dependency/Held (UH)": 26,
+    "MUA": 0,
+    "OH": 3,
+    "R4": 1,
+    "Total": 4,
+    "FMC": 22,
+    "Remarks (To incl present loc of eqpt EOA)": "\n01 x Under BOH at W6 in r/o 11 Engr Regt (00E 016084X).\n2 x CL-V and awaiting for BOH.\n1 x Mechanical condition very poor and being downgraded to CL V"
+  }
+}

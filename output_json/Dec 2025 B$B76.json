@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 76,
+    "Category \n(Make & Type)": "B76",
+    "Dependency/Auth \n(UE)": 0,
+    "Held\n(UH)": 16,
+    "NMC Due to/MUA": 1,
+    "OH": 1,
+    "R4": 0,
+    "Total": 2,
+    "FMC": 14,
+    "Remarks": "01 x ATV MRZR NMC due to engine faulty, under repair at 245 FWC (U12) \n01 x ATV RZR NMC due to wheel wobbling & brake sys faulty, spares under proc (U18)"
+  }
+}

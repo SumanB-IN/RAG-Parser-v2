@@ -1,0 +1,17 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 68,
+    "Category (Make & Type)/Category (Make & Type)": "B68",
+    "Dependency/Auth (UE)": 135,
+    "Dependency/Held (UH)": 162,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total": 0,
+    "FMC/FMC": 162,
+    "Remarks/Remarks": "01 x Held increased due to newly collected.",
+    "column_11": 0
+  }
+}

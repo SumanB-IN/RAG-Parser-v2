@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 20,
+    "Category (Make & Type)": "C20",
+    "Dependency/Auth (UE)": 1,
+    "Held (UH)": 1,
+    "MUA": 0,
+    "OH": 0,
+    "R4/CL-V & VI": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 1,
+    "Remarks\n(Demand details of VOR/EOA )": "Newly collected Eqpt\n01× Road Roller (CASE 952 Ex) out of ACSFP grant newly collected by U46."
+  }
+}

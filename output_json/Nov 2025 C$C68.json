@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh)",
+  "source_file": "Nov 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 68,
+    "Category (Make & Type)": "C68",
+    "Dependency/Auth (UE)": 28,
+    "Held (UH)": 30,
+    "MUA": 4,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)/Total NMC (Nos)": 4,
+    "FMC/FMC": 26,
+    "Remarks\n(Demand details of VOR/EOA )/Remarks\n(Demand details of VOR/EOA )": "02 x  Genr set DR raised on 15 Feb 2025. Genr set fwd to Kirlosaker Agency at Asansol for repair.\n02 x Genr set Wksp repairing due to AVR Faulty."
+  }
+}

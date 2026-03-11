@@ -1,0 +1,16 @@
+{
+  "sheet": "B VEH",
+  "source_file": "Dec 2025 K.xlsx",
+  "columns": {
+    "Ser No/Ser No": 62,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "B62",
+    "Auth \n(UE)/Auth \n(UE)": 1,
+    "Held\n(UH)/Held\n(UH)": 1,
+    "NMC Due to/MUA": "-",
+    "NMC Due to/OH": "-",
+    "NMC Due to/R4": 1,
+    "NMC Due to/Total": 1,
+    "FMC/FMC": "-",
+    "Remarks/Remarks": "Veh fwd to 510 ABW dt 21 May 2025  on DRWO due to jib lifting Cylinder Rt & Lt side seal leaking, & Relays power case not functional. ."
+  }
+}

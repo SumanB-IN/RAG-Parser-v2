@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 B.xlsx",
+  "columns": {
+    "Ser No": 10,
+    "Category \n(Make & Type)": "B10",
+    "Dependency/Auth \n(UE)": 0,
+    "Held\n(UH)": 28,
+    "NMC Due to/MUA": 6,
+    "OH": 0,
+    "R4": 3,
+    "Total": 9,
+    "FMC": 19,
+    "Remarks": "*01 x LSpV of U11 / U17 off rd due to stg pipe leaking since 27 Aug 25.\n*01 x LSpV of U11 / U17 is PMC due to AC sys faulty since 30 Aug 25.\n*01 x LSpV of U18 / U17 is off rd due to pulling power weak since 11 Sep 25.\n*01 x LSpV of U12 / U17 is off rd due to Parking brake not work since  28 Sep 2025. Intimated to OEM for repair.\n*01 x LSpV of U19 /U20 is off rd due to Pulling power weak & Steering hard since 13 Oct 2025. Intimated to OEM for repair.\n*01 x LSpV of U18 / U17 is off rd due to Windshield cracked since 13 Oct 2025. Intimated to OEM for repair.\n*01 x LSpV U20 is off rd due to starting trouble since 28 Oct 2025. Intimated to OEM for repair.\n*01 x LSpV of U19 /U20 is off rd due to Pulling Power Weak & Stg Hard since 28 Oct 2025. Intimated to OEM for repair.\n*01 x LSpV of U18 / U17 is off rd due to Starting trouble since 15 Dec 2025. Intimated to OEM for repair."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 10,
+    "Category (Make & Type)": "B10",
+    "Dependency/Auth (UE)": 4,
+    "Dependency/Held (UH)": 60,
+    "MUA": 8,
+    "OH": 0,
+    "R4": 0,
+    "Total": 8,
+    "FMC": 52,
+    "Remarks (To incl present loc of eqpt EOA)": "4 x Defect Report Raised\n4 x Defect Report Convening order \nunder progress\n"
+  }
+}

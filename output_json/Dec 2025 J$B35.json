@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B (B Veh)",
+  "source_file": "Dec 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 5,
+    "Category (Make & Type)/Category (Make & Type)": "B35",
+    "Dependency/Auth": 52,
+    "Dependency/Held": 57,
+    "NMC Due To/MUA": "*1+@1",
+    "NMC Due To/OH": 0,
+    "NMC Due To/R4/Cl-V": 0,
+    "NMC Due To/Total": 2,
+    "FMC/FMC": 55,
+    "Remarks/Remarks": "* The veh (LCR BA No 08E019847E) fwd to 508 ABW (on 25  Nov 25 & reported to 508 ABW on 29  Nov 25) for the change of cracked chassis.\n@ 1 x Eng Assy of RV decl BER due to excessive wot in all cyl. New eng assy demanded on 27 Oct 25."
+  }
+}

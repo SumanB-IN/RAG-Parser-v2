@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B (B Veh)",
+  "source_file": "Dec 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 16,
+    "Category (Make & Type)/Category (Make & Type)": "B80",
+    "Dependency/Auth": 0,
+    "Dependency/Held": 2,
+    "NMC Due To/MUA": 0,
+    "NMC Due To/OH": 0,
+    "NMC Due To/R4/Cl-V": 0,
+    "NMC Due To/Total": 2,
+    "FMC/FMC": 2,
+    "Remarks/Remarks": 0
+  }
+}

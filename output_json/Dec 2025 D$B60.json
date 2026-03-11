@@ -1,0 +1,16 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Dec 2025 D.xlsx",
+  "columns": {
+    "Ser No": 60,
+    "Category (Make & Type)": "B60",
+    "Dependency/Auth (UE)": 11,
+    "Dependency/Held (UH)": 43,
+    "MUA": 0,
+    "OH": 0,
+    "R4/ CL-V & VI": 1,
+    "Total": 1,
+    "FMC": 42,
+    "Remarks (To incl present loc of eqpt EOA)": "01 x Chassis crack (DR raised)"
+  }
+}

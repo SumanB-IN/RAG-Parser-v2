@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Nov 2025 E.xlsx",
+  "columns": {
+    "Ser No": 180,
+    "Category (Make & Type)": "C180",
+    "Dependency/Auth (UE)": 13,
+    "Held (UH)": 6,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 6,
+    "Remarks\n(Demand Detls of VOR/EOA)": "Held excl 01 x Bty Charger at Gopalpur"
+  }
+}

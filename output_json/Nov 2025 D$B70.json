@@ -1,0 +1,16 @@
+{
+  "sheet": "2 Appx A (B veh)",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 70,
+    "Category (Make & Type)": "B70",
+    "Dependency/Auth (UE)": 2,
+    "Dependency/Held (UH)": 21,
+    "MUA": 0,
+    "OH": 0,
+    "R4/ CL-V & VI": 0,
+    "Total": 0,
+    "FMC": 21,
+    "Remarks (To incl present loc of eqpt EOA)": 0
+  }
+}

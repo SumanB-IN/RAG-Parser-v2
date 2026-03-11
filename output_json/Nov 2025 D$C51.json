@@ -1,0 +1,16 @@
+{
+  "sheet": "3 Appx A (C veh),",
+  "source_file": "Nov 2025 D.xlsx",
+  "columns": {
+    "Ser No": 51,
+    "Category (Make & Type)": "C51",
+    "Dependency/Auth (UE)": 3,
+    "Held (UH)": 6,
+    "MUA": 2,
+    "OH": 0,
+    "R4/CL-V & VI": 0,
+    "Total NMC (Nos)": 2,
+    "FMC": 4,
+    "Remarks\n(Demand details of VOR/EOA )": "02 x Mobile Mast Hydraulic oil seal Demand "
+  }
+}

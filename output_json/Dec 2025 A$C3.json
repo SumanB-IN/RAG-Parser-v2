@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 3,
+    "Category (Make & Type)": "C3",
+    "Dependency/Auth (UE)": 11,
+    "Held (UH)": 13,
+    "NMC/MUA": 2,
+    "NMC/OH": 0,
+    "NMC/R4": 3,
+    "Total NMC (Nos)": 5,
+    "FMC": 8,
+    "Remarks\n(Demand details of VOR/EOA )": "01 x Off road due to Tilt cylinder assy demand to W5 Kankinara by U36.\n1 x Bty Demanded\n03 x Decl CL-VI"
+  }
+}

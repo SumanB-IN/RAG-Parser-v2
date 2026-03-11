@@ -1,0 +1,18 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 21,
+    "Category (Make & Type)": "B21",
+    "Dependency/Auth (UE)": 32,
+    "Dependency/Held (UH)": 26,
+    "MUA": 0,
+    "OH": 1,
+    "R4": 1,
+    "Total": 2,
+    "FMC": 24,
+    "Remarks (To incl present loc of eqpt EOA)": "\n01 x Under BOH at W6 in r/o U37 (00E 016084X).\n1 x Mechanical condition very poor and being downgraded to CL V",
+    "column_11": 0,
+    "column_12": 0
+  }
+}

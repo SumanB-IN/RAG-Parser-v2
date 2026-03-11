@@ -1,0 +1,16 @@
+{
+  "sheet": "APPX C veh",
+  "source_file": "Nov 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 17,
+    "Category (Make & Type)": "C17",
+    "Dependency/Auth (UE)": 3,
+    "Dependency/Held (UH)": 2,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 1,
+    "FMC/FMC": 1,
+    "Remarks/Remarks": "01 x Motor Grader decl to CL-VI vide AO 293/73  approved by HQ Eastern Comd (EME)"
+  }
+}

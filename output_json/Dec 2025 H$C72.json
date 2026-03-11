@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 H.xlsx",
+  "columns": {
+    "Ser No": 4,
+    "Category (Make & Type)": "C72",
+    "Dependency/Auth (UE)": 3,
+    "Held (UH)": 4,
+    "MUA": 0,
+    "OH": 0,
+    "R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 4,
+    "Remarks\n(Demand details of VOR/EOA )": "Fitted on MET"
+  }
+}

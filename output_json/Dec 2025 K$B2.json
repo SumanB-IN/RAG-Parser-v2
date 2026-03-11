@@ -1,0 +1,16 @@
+{
+  "sheet": "B VEH",
+  "source_file": "Dec 2025 K.xlsx",
+  "columns": {
+    "Ser No/Ser No": 2,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "B2",
+    "Auth \n(UE)/Auth \n(UE)": 9,
+    "Held\n(UH)/Held\n(UH)": 6,
+    "NMC Due to/MUA": 1,
+    "NMC Due to/OH": "-",
+    "NMC Due to/R4": "-",
+    "NMC Due to/Total": 1,
+    "FMC/FMC": 5,
+    "Remarks/Remarks": "02x 2.5 Ton Deposite in 41 Veh Coy.(02 x Tata 2.5 Ton of 55 PCWE declr CL-V vide AO 5/95, GOI letter No B/81510/MGS/EM (B Veh) D(O-1) dt 19 Oct 2023). 01 x Tata 2.5 Ton off road due to self starter assy UNSV."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sheet": "(B veh)",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 3,
+    "Category (Make & Type)": "B3",
+    "Dependency/Auth (UE)": 2079,
+    "Dependency/Held (UH)": 1643,
+    "MUA": 6,
+    "OH": 0,
+    "R4": 23,
+    "Total": 29,
+    "FMC": 1614,
+    "Remarks (To incl present loc of eqpt EOA)": "\nMUAs- 06\n04 x Eng Assy demanded\n01 X ALS OF U13 DEFECT REPORT RAISED  ON 14 SEP 2025 FOR AUXILIARY GEAR NOSY.\n01 x Cabin Assy under dmd\n 22 x Veh CL V\n01 x Accident Veh in r/o U14 Fd Regt",
+    "column_11": 0,
+    "column_12": 0
+  }
+}

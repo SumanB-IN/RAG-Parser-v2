@@ -1,0 +1,16 @@
+{
+  "sheet": "APPX C veh",
+  "source_file": "Nov 2025 J.xlsx",
+  "columns": {
+    "Ser/Ser": 47,
+    "Category (Make & Type)": "C47",
+    "Dependency/Auth (UE)": 2,
+    "Dependency/Held (UH)": 2,
+    "Nos of Eqpt EOA Due to/MUAs": 0,
+    "Nos of Eqpt EOA Due to/OH": 0,
+    "Nos of Eqpt EOA Due to/R4": 0,
+    "Nos of Eqpt EOA Due to/Total": 0,
+    "FMC/FMC": 2,
+    "Remarks/Remarks": 0
+  }
+}

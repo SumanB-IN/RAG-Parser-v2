@@ -1,0 +1,16 @@
+{
+  "sheet": "(C veh),",
+  "source_file": "Nov 2025 A.xlsx",
+  "columns": {
+    "Ser No": 17,
+    "Category (Make & Type)": "C17",
+    "Dependency/Auth (UE)": 0,
+    "Held (UH)": 2,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 1,
+    "Total NMC (Nos)": 2,
+    "FMC": 0,
+    "Remarks\n(Demand details of VOR/EOA )": "\n01 x Motor Grader (086101P 92) under CL VI in r/o U37"
+  }
+}

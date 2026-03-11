@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 56,
+    "Category (Make & Type)": "B56",
+    "Dependency/Auth \n(UE)": 56,
+    "Dependency/Held\n(UH)": 92,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 19,
+    "NMC Due to/Total": 19,
+    "FMC/FMC": 73,
+    "Remarks/Remarks": "05 x Veh body sagging (U22)\n03 x ALS Amb in r/o U23 DR raised (closure report recd from CQA) \n01 x ALS Amb in r/o U23 DR raised \n04 x DR raised and being under premature downgradation\n06 x Defect report raised"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B veh",
+  "source_file": "Dec 2025 E.xlsx",
+  "columns": {
+    "Ser No/Ser No": 4,
+    "Category \n(Make & Type)/Category \n(Make & Type)": "B12",
+    "Auth \n(UE)/Auth \n(UE)": 6,
+    "Held\n(UH)/Held\n(UH)": 3,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 3,
+    "NMC Due to/R4": 0,
+    "NMC Due to/Total": 0,
+    "FMC/FMC": 0,
+    "Remarks/Remarks": "02 x KRAZ Veh BA No \n94E 011274P & 93E 010859N, under BOH at 507 ABW, since 05 Jul 2025 & PDC of the same on Feb 2026 vide 507 ABW Letter No 70303/BV/BOH/21/PP dt 18 Sep 25\n\n01 x KRAZ Veh BA No 94E 011183Y, under BOH at 507 ABW, Since 25 Jul 2025. PDC of the same on Feb 2026 vide 507 ABW Letter No 70303/BV/BOH/21/PP dt 18 Sep 25."
+  }
+}

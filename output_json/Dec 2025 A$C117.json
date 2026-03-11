@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 117,
+    "Category (Make & Type)": "C117",
+    "Dependency/Auth (UE)": 251,
+    "Held (UH)": 190,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 0,
+    "Total NMC (Nos)": 1,
+    "FMC": 189,
+    "Remarks\n(Demand details of VOR/EOA )": "01 x Genr Set Regd No 02597 in r/o U43 off rd due valve, cyl head and piston bkn."
+  }
+}

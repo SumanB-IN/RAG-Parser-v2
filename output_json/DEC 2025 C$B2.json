@@ -1,0 +1,17 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "DEC 2025 C.xlsx",
+  "columns": {
+    "Ser No/Ser No": 2,
+    "Category (Make & Type)/Category (Make & Type)": "B2",
+    "Dependency/Auth (UE)": 1222,
+    "Dependency/Held (UH)": 969,
+    "MUA": 3,
+    "OH": 0,
+    "R4": 0,
+    "Total": 3,
+    "FMC/FMC": 966,
+    "Remarks/Remarks": "01 x Under repair at Z2\n02 x Eng Assy under demand\n01 x Held Incresed due to newly issued",
+    "column_11": 0
+  }
+}

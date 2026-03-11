@@ -1,0 +1,16 @@
+{
+  "sheet": "APPX B veh",
+  "source_file": "Nov 2025 J.xlsx",
+  "columns": {
+    "Ser No/Ser No": 68,
+    "Category (Make & Type)": "B68",
+    "Auth \n(UE)/Auth \n(UE)": 0,
+    "Held\n(UH)/Held\n(UH)": "-",
+    "NMC Due to/MUA": "-",
+    "NMC Due to/OH": "-",
+    "NMC Due to/R4": "-",
+    "NMC Due to/Total": "-",
+    "FMC/FMC": "-",
+    "Remarks/Remarks": 0
+  }
+}

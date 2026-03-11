@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (B veh)",
+  "source_file": "Nov 2025 B.xlsx",
+  "columns": {
+    "Ser No/Ser No": 21,
+    "Category (Make & Type)": "B21",
+    "Dependency/Auth \n(UE)": 41,
+    "Dependency/Held\n(UH)": 25,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 1,
+    "NMC Due to/R4": 1,
+    "NMC Due to/Total": 2,
+    "FMC/FMC": 23,
+    "Remarks/Remarks": "01x off road waiting for MLOH\n01 X W6 for MLOH"
+  }
+}

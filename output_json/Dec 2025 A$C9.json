@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 A.xlsx",
+  "columns": {
+    "Ser No": 9,
+    "Category (Make & Type)": "C9",
+    "Dependency/Auth (UE)": 38,
+    "Held (UH)": 39,
+    "NMC/MUA": 1,
+    "NMC/OH": 0,
+    "NMC/R4": 2,
+    "Total NMC (Nos)": 3,
+    "FMC": 36,
+    "Remarks\n(Demand details of VOR/EOA )": "01 x declared CL VI awaiting for disposal order\n01 x Eqpt off rd due to cover outer demanded by unit\n01 x Eqpt EOA for Eng Assy\n01 x CL-V\n01 x Wind shield galss demanded "
+  }
+}

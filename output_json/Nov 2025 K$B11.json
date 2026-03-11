@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx B Nov 2025 veh",
+  "source_file": "Nov 2025 K.xlsx",
+  "columns": {
+    "Ser No/Ser No": 4,
+    "Category (Make & Type)": "B11",
+    "Auth \n(UE)/Auth \n(UE)": 81,
+    "Held\n(UH)/Held\n(UH)": 64,
+    "NMC Due to/MUA": 6,
+    "NMC Due to/OH": "-",
+    "NMC Due to/R4": "-",
+    "NMC Due to/Total": "-",
+    "FMC/FMC": 58,
+    "Remarks/Remarks": "11.1  BA No   23R 012592Y (BCC) . Bty 12 V DC 180 AH not holding charge . Failure report  raised on 14 Nov 2025 as the Veh are under warranty. But veh under observation.\n\n11.2 BA No 23R025405K (CS), 23E 025420P(Lr) , 23E 025403P(CS) ,  23E 025406E (PV) & 23E 025421M (Lr)  Bty 12 V DC 180 AH not holding charge . Follow up report   raised on 16 Oct & 30 OCt 2025 . But veh under observation.\n\n"
+  }
+}

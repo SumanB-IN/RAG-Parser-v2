@@ -1,0 +1,16 @@
+{
+  "sheet": "Appx A (C veh),",
+  "source_file": "Dec 2025 F.xlsx",
+  "columns": {
+    "Ser No": 5,
+    "Category (Make & Type)": "C85",
+    "Dependency/Auth (UE)": 5,
+    "Held (UH)": 6,
+    "NMC Due to/MUA": 0,
+    "NMC Due to/OH": 0,
+    "NMC Due to/R4": 0,
+    "Total NMC (Nos)": 0,
+    "FMC": 6,
+    "Remarks\n(Demand Detls of VOR/EOA)": "04 x M/s Escort (ACSFP) and 02 x M/s Eicher"
+  }
+}
