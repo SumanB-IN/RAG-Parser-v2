@@ -90,7 +90,6 @@ class LLMHandler:
             response = requests.get(f"{self.ollama_base_url.rstrip('/')}/api/tags", timeout=3)
             response.raise_for_status()
             models = response.json().get("models", [])
-            # print(f"Available models from Ollama: {[model.get('name', '') for model in models if model.get('name')]}")
             return sorted([model.get("name", "") for model in models if model.get("name")])
         except Exception:
             return []
@@ -113,14 +112,42 @@ class LLMHandler:
 
     async def get_answer_from_db(self, question):
         persist_handler = Persist_Handler()
-        db = SQLDatabase(persist_handler.engine)
+        db = SQLDatabase(
+            persist_handler.engine,
+            include_tables=["vehicle_report", "vehicle_report_metadata"],
+            sample_rows_in_table_info=3,
+        )
         toolkit = SQLDatabaseToolkit(db=db, llm=self.llm_qwen)
+
+        normalized_question = (question or "").strip()
+        replacements = {
+            "held": "dependancy_held",
+            "dependency held": "dependancy_held",
+            "dependency auth": "dependency_auth",
+            "nmc": "mnc_due_to_total",
+            "mua": "mnc_due_to_mua",
+            "oh": "mnc_due_to_oh",
+            "r4": "mnc_due_to_r4",
+        }
+        lowered = normalized_question.lower()
+        for source, target in replacements.items():
+            lowered = lowered.replace(source, target)
+
+        sql_question = f"""
+                    Question: {normalized_question}
+
+                    Field hints (use only if relevant):
+                    {lowered}
+                    """.strip()
 
         agent = create_sql_agent(
             llm=self.llm_qwen,
             toolkit=toolkit,
             agent_type="zero-shot-react-description",
+            top_k=25,
             verbose=True,
+            max_iterations=8,
+            early_stopping_method="generate",
             agent_executor_kwargs={
                 "handle_parsing_errors": "Parsing error detected. Reflect on the error, correct the action format/SQL, and try again."
             },
@@ -138,7 +165,14 @@ class LLMHandler:
                             1. vehicle_report: id, formation, year, month, category, sub_category, dependency_auth, dependancy_held, mnc_due_to_mua, mnc_due_to_oh, mnc_due_to_r4, mnc_due_to_total, fmc, remarks, chunk_metadata, vector_embedding
                             2. vehicle_report_metadata: id, formation, year, month, component_type, record_count, insert_datetime, last_activity, last_activity_datetime
 
-                            You have to generate a SQL query to get the answer from the database and then execute the query to get the answer. 
+                            You have to generate a SQL query to get the answer from the database and then execute the query to get the answer.
+                            Follow this workflow strictly:
+                            1. Inspect available tables and schema before writing complex SQL.
+                            2. Use only relevant columns and never use SELECT *.
+                            3. For aggregation/trend questions, include explicit GROUP BY and ORDER BY.
+                            4. For month/year filters, use exact values from the question and verify column names from schema.
+                            5. If the question is ambiguous, state assumptions briefly in final answer.
+                            6. Return concise result with key numbers and brief interpretation.
                             
                             If you are not sure about the table or column name then you can use the following SQL query to get the table and column names:
                             "SELECT table_name FROM information_schema.tables WHERE table_schema = 'public';" to get the table names and "SELECT column_name FROM information_schema.columns WHERE table_name = 'table_name';" to get the column names of a specific table.
@@ -164,7 +198,21 @@ class LLMHandler:
 
         try:
             start_time = time.perf_counter()
-            response = await agent.ainvoke({"input": question})
+            response = await agent.ainvoke({"input": sql_question})
+
+            output_text = str(response.get("output", "")).strip() if isinstance(response, dict) else ""
+            if not output_text or output_text.lower() in {
+                "i don't know",
+                "i do not know",
+                "unable to answer",
+            }:
+                refined_input = (
+                    f"{sql_question}\n\n"
+                    "Retry with stricter SQL reasoning: verify schema first, then run a minimal query, "
+                    "then refine to final query and provide a concise numeric answer."
+                )
+                response = await agent.ainvoke({"input": refined_input})
+
             end_time = time.perf_counter()
             elapsed_time = end_time - start_time
             return elapsed_time, response
@@ -175,12 +223,6 @@ class LLMHandler:
                 "error": error_message,
                 "status": "failed"
             }
-    
-    # async def run_calls_async(self):
-    #     # Use abatch for a list of prompts
-    #     results = await self.llm.abatch(prompts)
-    #     for prompt, result in zip(prompts, results):
-    #         print(f"Prompt: {prompt}\nResult: {result}\n---")
 
 if __name__ == "__main__":
 
