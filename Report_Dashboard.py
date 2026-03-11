@@ -75,7 +75,7 @@ llm_handler = LLMHandler()
 available_models = llm_handler.get_local_ollama_models()
 
 # Display in Streamlit
-tab1, tab2, tab3, tab4 = st.tabs(["📤 File Upload", "📄 View Generated Report", "📊 Dashboard", "❓ Q&A"])
+tab1, tab2, tab3, tab4 = st.tabs(["📤 File Upload", "📄 Historical Report", "📊 Dashboard", "❓ Q&A"])
 
 # Add content to the first tab
 with tab1:
@@ -217,7 +217,7 @@ with tab1:
                     elif loaded_report_path is not None:
                         st.info(f"Loaded pre-generated report: {loaded_report_path.name}")
 
-                    st.subheader(f"Formation Progress Report for Formation {selected_rows[1].split('-')[0]} for {selected_rows[0].split('-')[1]}{selected_rows[0].split('-')[2]} vs {selected_rows[1].split('-')[1]} {selected_rows[1].split('-')[2]}")
+                    st.subheader(f"Progress Report for Formation {selected_rows[1].split('-')[0]} for {selected_rows[0].split('-')[1]}{selected_rows[0].split('-')[2]} vs {selected_rows[1].split('-')[1]} {selected_rows[1].split('-')[2]}")
 
                     if isinstance(report_dict, dict):
                         for key, markdown_content in report_dict.items():
@@ -239,7 +239,7 @@ with tab1:
         st.info("Select 2 rows of Same formation to generate a report.")
 
 with tab2:
-    st.subheader("Historical Reports")
+    st.subheader("Previous Generated Reports")
     browse_path = "generated_report"
     available_files = []
     if browse_path.strip():
@@ -295,17 +295,17 @@ with tab2:
                     column_config={
                         "Select": st.column_config.CheckboxColumn("Select"),
                         "model_name": st.column_config.TextColumn("Model Name"),
-                        "previous_month": st.column_config.TextColumn("Prev Month"),
-                        "previous_year": st.column_config.TextColumn("Prev Year"),
-                        "current_formation": st.column_config.TextColumn("Curr Formation"),
-                        "current_month": st.column_config.TextColumn("Curr Month"),
-                        "current_year": st.column_config.TextColumn("Curr Year"),
+                        "previous_month": st.column_config.TextColumn("Previous Month"),
+                        "previous_year": st.column_config.TextColumn("Previous Year"),
+                        "current_formation": st.column_config.TextColumn("Formation"),
+                        "current_month": st.column_config.TextColumn("Current Month"),
+                        "current_year": st.column_config.TextColumn("Current Year"),
                         "timestamp": st.column_config.TextColumn("Timestamp"),
                     },
                     key="report_file_selector"
                 )
 
-                if st.button("Load Selected File", type="secondary"):
+                if st.button("Load Selected Report", type="secondary"):
                     try:
                         selected_rows = edited_selection_df[edited_selection_df["Select"] == True]
                         if len(selected_rows) != 1:
@@ -317,6 +317,10 @@ with tab2:
                                 with open(selected_file_path, "r", encoding="utf-8") as file:
                                     loaded_json = json.load(file)
                             st.success(f"Loaded JSON file: {selected_file}")
+                            print(current_split)
+                            print(current_split[0])
+                            st.subheader(f"Progress Report of Formation {current_split[0][0]} for {previous_split[0][1]} {previous_split[0][2]} vs {current_split[0][1]} {current_split[0][2]}")
+
                             if isinstance(loaded_json, dict):
                                 # If report_dict is a dictionary, render each section
                                 for key, markdown_content in loaded_json.items():
