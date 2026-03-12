@@ -260,6 +260,9 @@ class VehicleHandler:
         elapsed_time = end_time - start_time
         return elapsed_time, r
 
+    def set_model(self, model_name):
+        self.llm_handler.set_model(model_name)
+        
 if __name__ == "__main__":
     # path = "E:\LLM_Project\RAG-Parser-v2\FRS_filtered\\Dec\\Fmn A Dec\\Dec 2025 A.xlsx"
     # VehicleHandler().import_data(file_path = path, folder_path = None, output_dir = "Output_JSON", include_summary = False, storage_type = "database")
