@@ -167,6 +167,8 @@ with tab1:
                     key="tab1_ollama_model",
                     label_visibility="collapsed"
                 )
+                if selected_model and selected_model != vehicle_handler.llm_handler.model_name:
+                    vehicle_handler.set_model(selected_model)
             with name_col:
                 pass
         
@@ -186,9 +188,6 @@ with tab1:
                 report_dict = None
                 elapsed_time = None
                 loaded_report_path = None
-
-                if selected_model and selected_model != llm_handler.model_name:
-                    llm_handler.set_model(selected_model)
 
                 if generate_new_report:
                     with st.spinner("Generating Report..."):
