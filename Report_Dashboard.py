@@ -474,12 +474,12 @@ with tab4:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.plotly_chart(Bar_Chart_Category_Wise)
-        st.plotly_chart(Bar_Chart_Unit_Wise)
+        st.plotly_chart(Bar_Chart_Category_Wise, key="chart1")
+        st.plotly_chart(Bar_Chart_Unit_Wise, key="chart2")
 
     with col2:
-        st.plotly_chart(Bar_Chart_Unit_Wise_Combact_Readiness, stack=False)
-        st.plotly_chart(Pie_Chart_formation_Readiness_in_Percentage)
+        st.plotly_chart(Bar_Chart_Unit_Wise_Combact_Readiness, key="chart3")
+        st.plotly_chart(Pie_Chart_formation_Readiness_in_Percentage, key="chart4")
 
 with tab5:
     st.header("Q&A Section")
