@@ -2,7 +2,7 @@ import pandas as pd
 import time, datetime
 from read_file_SB import ReadFileSB
 from read_file_TC import ReadFileTC
-from Vehicle_Report import Vehicle_Report, Vehicle_Report_Metadata
+from Vehicle_Report import Vehicle_Report, Vehicle_Report_Metadata, Vehicle_Report_A
 from Persist_Handler import Persist_Handler
 from Vector_Handler import VectorHandler
 from LLM_Handler import LLMHandler
@@ -219,9 +219,81 @@ class VehicleHandler:
     def get_vehicle_records(self, formation, year, month):
         df = self._run_async(self.persist_handler.get_record(formation, year, month))
         return df
+    
+    def process_vehicle_a(self, excel_file_path, sheet_name):
+        file_name = Path(excel_file_path).stem
+        month, year, formation = file_name.split(" ")
+        # report_metadata.formation = formation
+        # report_metadata.month = month
+        # report_metadata.year = year
+        # report_metadata.component_type = "Vehicle"
+        # sub_category = ""
+        vehicle_report_list = []
+
+        readfileSB = ReadFileSB()
+        df = readfileSB.readEXCEL(excel_file_path, sheet_name=sheet_name)
+        df.ffill(inplace=True)
+        print(type(df))
+        print(df.head(5))
+
+        # Iterate through each sheet and work with its DataFrame
+        # for sheet_name, df in data.items():
+        #     if "veh" in sheet_name.lower():
+        #         print(f"--- Data from sheet: {sheet_name} ---")
+        #         df.iloc[:, 8] = df.iloc[:, 8].replace(['-', '0'], 0)
+        #         # df.columns = df.columns.str.replace(r'[^a-zA-Z0-9_]', ' ', regex=True)
+
+                # You can now process each DataFrame (df) as needed
+        for index, row in df.iterrows():
+            try:
+                if not pd.isna(row.iloc[2]):
+                    vehicle_report = Vehicle_Report_A(
+                        formation = formation, 
+                        year = year, 
+                        month = month, 
+                        category = df.iloc[index][1],
+                        unit = df.iloc[index][2],
+                        dependency_auth = df.iloc[index][3], 
+                        dependancy_held = df.iloc[index][4],
+                        nmc_due_to_eng = df.iloc[index][5],
+                        nmc_due_to_mua = df.iloc[index][6],
+                        pmc_due_to_spares = df.iloc[index][7],
+                        nmc_due_to_oh = df.iloc[index][8],
+                        nmc_due_to_mr = df.iloc[index][9],
+                        pmc_due_to_fr = df.iloc[index][10],
+                        nmc_due_to_r4 = df.iloc[index][11],
+                        nmc_due_to_obe = df.iloc[index][12],
+                        nmc_total = df.iloc[index][13],
+                        pmc_total = df.iloc[index][14],
+                        fmc_total = df.iloc[index][15],
+                        nmc_percentage = df.iloc[index][16],
+                        pmc_percentage = df.iloc[index][17],
+                        fmc_percentage = df.iloc[index][18],
+                        available_percentage = df.iloc[index][19],
+                        remarks = df.iloc[index][20].splitlines() if (not pd.isna(df.iloc[index][20]) and isinstance(df.iloc[index][20].splitlines(), list)) else [],
+                        chunk_metadata = f"{formation}-{month}-{year}")
+                    
+                    vehicle_report_list.append(vehicle_report)
+                else:
+                    # sub_category = row.iloc[0]
+                    continue
+
+            except Exception as e:
+                print("Ignoring Row")
+
+        print("Total Reports found : " + str(len(vehicle_report_list)))
+        row_added = self._run_async(self.persist_handler.add_record(vehicle_report_list = vehicle_report_list))
+        print("Total Records Added : " + str(row_added))
+
+    def get_vehicle_a_records(self, formation, year, month):
+        df = self._run_async(self.persist_handler.get_record_a(formation, year, month))
+        return df
 
     def get_data_for_combo_box(self, column_name):
         return self._run_async(self.persist_handler.get_data_for_combo_box(column_name))
+    
+    def get_data_a_for_combo_box(self, column_name):
+        return self._run_async(self.persist_handler.get_data_a_for_combo_box(column_name))
 
     def get_vehicle_record_metadata(self, formation, year, month):
         df = self._run_async(self.persist_handler.get_record_metadata(formation, year, month))
@@ -264,17 +336,18 @@ class VehicleHandler:
         self.llm_handler.set_model(model_name)
         
 if __name__ == "__main__":
-    # path = "E:\LLM_Project\RAG-Parser-v2\FRS_filtered\\Dec\\Fmn A Dec\\Dec 2025 A.xlsx"
-    # VehicleHandler().import_data(file_path = path, folder_path = None, output_dir = "Output_JSON", include_summary = False, storage_type = "database")
+    path = "E:\RAG-Parser-v2\FRS_filtered\\Dec\\Fmn D Dec\\Dec 2025 D.xlsx"
+    # path = "E:\RAG-Parser-v2\FRS_filtered\\Nov\\Fmn D Nov\\Nov 2025 D.xlsx"
+    VehicleHandler().process_vehicle_a(excel_file_path = path, sheet_name = "A Vehicle")
     # path = "E:\\LLM_Project\\RAG-Parser-v2\\FRS_filtered\\Dec"
     # VehicleHandler().import_data(file_path = None, folder_path = path, output_dir = "Output_JSON", include_summary = False, storage_type = "database")
     # VehicleHandler().get_vehicle_records("D", "2025", "Dec")
-    question = """From the two dictionary in the list extract the set of remarks aand then you have to compare the second sets of remarks with the first and 
-                    get back with a report about the progess made by the formation in terms of how many component came out of the Non-Mission Capable list. 
-                    As thoes component will get added to the FMC list that is the component are ready and are full mission capable.
+    # question = """From the two dictionary in the list extract the set of remarks aand then you have to compare the second sets of remarks with the first and 
+    #                 get back with a report about the progess made by the formation in terms of how many component came out of the Non-Mission Capable list. 
+    #                 As thoes component will get added to the FMC list that is the component are ready and are full mission capable.
                 
-                You have to red flag conditions where no status changed or no progress made by the formation
+    #             You have to red flag conditions where no status changed or no progress made by the formation
                 
-                The report has to be concise with only Conclusion and Recommendations"""
-    VehicleHandler().generate_report("A-Nov-2025", "A-Dec-2025", question)
+    #             The report has to be concise with only Conclusion and Recommendations"""
+    # VehicleHandler().generate_report("A-Nov-2025", "A-Dec-2025", question)
         

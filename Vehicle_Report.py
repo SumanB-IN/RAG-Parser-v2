@@ -89,5 +89,84 @@ class Vehicle_Report(Base):
         {self.remarks} Specific notes, including the EOA (Equipment On Account) or the current physical location of the asset."""
 
         return chunk_new
-    
 
+class Vehicle_Report_A(Base):
+    
+    __tablename__ = 'vehicle_report_a'
+
+    id = Column(Integer, primary_key = True, nullable = False)
+    formation = Column(String)
+    year = Column(String)
+    month = Column(String)
+    category = Column(String)
+    unit = Column(String)
+    dependency_auth = Column(String)
+    dependancy_held = Column(String)
+    nmc_due_to_eng = Column(String)
+    nmc_due_to_mua = Column(String)
+    pmc_due_to_spares = Column(String)
+    nmc_due_to_oh = Column(String)
+    nmc_due_to_mr = Column(String)
+    pmc_due_to_fr = Column(String)
+    nmc_due_to_r4 = Column(String)
+    nmc_due_to_obe = Column(String)
+    nmc_total = Column(String)
+    pmc_total = Column(String)
+    fmc_total = Column(String)
+    nmc_percentage = Column(String)
+    pmc_percentage = Column(String)
+    fmc_percentage = Column(String)
+    available_percentage = Column(String)
+    remarks = Column(ARRAY(String))
+    chunk_metadata = Column(String)
+
+    def create_tables(engine):
+        print("Creating Tables")
+        Base.metadata.create_all(engine)
+
+    def to_dict(self):
+        """
+        Return a dictionary representation of the model's columns.
+        """
+        return {field.name: getattr(self, field.name) for field in self.__table__.c}
+
+    def __str__(self):
+        return super().__str__()
+        
+class WorkOrderLocal(Base):
+
+    __tablename__ = 'workorderlocal'
+
+    id = Column(Integer, primary_key = True, nullable = False)
+    formation = Column(String)
+    year = Column(String)
+    month = Column(String)
+    category = Column(String)
+    sub_category = Column(String)
+    dependency_auth = Column(String)
+    dependancy_held = Column(String)
+    mnc_due_to_mua = Column(String)
+    mnc_due_to_oh = Column(String)
+    mnc_due_to_r4 = Column(String)
+    mnc_due_to_total = Column(String)
+    fmc = Column(String)
+    remarks = Column(String)
+
+class WorkOrderRemote(Base):
+
+    __tablename__ = 'workorderremote'
+
+    id = Column(Integer, primary_key = True, nullable = False)
+    formation = Column(String)
+    year = Column(String)
+    month = Column(String)
+    category = Column(String)
+    sub_category = Column(String)
+    dependency_auth = Column(String)
+    dependancy_held = Column(String)
+    mnc_due_to_mua = Column(String)
+    mnc_due_to_oh = Column(String)
+    mnc_due_to_r4 = Column(String)
+    mnc_due_to_total = Column(String)
+    fmc = Column(String)
+    remarks = Column(String)

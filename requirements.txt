@@ -9,3 +9,4 @@ pgvector == 0.4.2
 langchain-community == 0.4.1
 chromadb == 1.0.9
 psycopg2-binary == 2.9.11
+pandas == 2.2.3

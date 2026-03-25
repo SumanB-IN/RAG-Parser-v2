@@ -5,7 +5,7 @@ import asyncio
 
 import pandas as pd
 
-from Vehicle_Report import Vehicle_Report, Vehicle_Report_Metadata
+from Vehicle_Report import Vehicle_Report, Vehicle_Report_Metadata, Vehicle_Report_A
 
 class Persist_Handler:
     def __init__(self):
@@ -14,9 +14,28 @@ class Persist_Handler:
         self.SessionMaker = sessionmaker(bind = self.engine)
 
         # Tables will be created if they didn't already exist.
-        # Vehicle_Report.create_tables(self.engine)
+        Vehicle_Report_A.create_tables(self.engine)
         
     def _add_record_sync(self, vehicle_report_list: list[Vehicle_Report]):
+        record_added = 0
+        session = self.SessionMaker()
+        try:
+            for vehicle_report in vehicle_report_list:
+                session.add(vehicle_report)
+                try:
+                    session.commit()
+                    record_added += 1
+                except IntegrityError as e:
+                    session.rollback()
+                    print(f"Integrity Error: {e.orig}")
+                except SQLAlchemyError as e:
+                    session.rollback()
+                    print(f"An unexpected SQLAlchemy error occurred: {e}")
+        finally:
+            session.close()
+        return record_added
+    
+    def _add_record_a_sync(self, vehicle_report_list: list[Vehicle_Report_A]):
         record_added = 0
         session = self.SessionMaker()
         try:
@@ -37,6 +56,9 @@ class Persist_Handler:
 
     async def add_record(self, vehicle_report_list : list[Vehicle_Report]):
         return await asyncio.to_thread(self._add_record_sync, vehicle_report_list)
+    
+    async def add_record_a(self, vehicle_report_list : list[Vehicle_Report_A]):
+        return await asyncio.to_thread(self._add_record_a_sync, vehicle_report_list)
 
     def _add_record_metadata_sync(self, vehicle_report_metadata: Vehicle_Report_Metadata):
         session = self.SessionMaker()
@@ -61,6 +83,11 @@ class Persist_Handler:
         # print(f"select * from vehicle_report where formation = '{formation}' and year = '{year}' and month = '{month}'")
         df = pd.read_sql_query(f"select * from vehicle_report where formation = '{formation}' and year = '{year}' and month = '{month}'", con=self.engine)
         return df
+    
+    def _get_record_a_sync(self, formation, year, month):
+        # print(f"select * from vehicle_report_a where formation = '{formation}' and year = '{year}' and month = '{month}'")
+        df = pd.read_sql_query(f"select * from vehicle_report_a where formation = '{formation}' and year = '{year}' and month = '{month}'", con=self.engine)
+        return df
 
     async def get_record(self, formation, year, month):
         return await asyncio.to_thread(self._get_record_sync, formation, year, month)
@@ -69,6 +96,15 @@ class Persist_Handler:
         formation, month, year = chuck_metadata.split("-")
         # print(f"select formation, month, year, category, mnc_due_to_mua, mnc_due_to_oh, mnc_due_to_r4, mnc_due_to_total, remarks from vehicle_report where formation = '{formation}' and year = '{year}' and month = '{month}'")
         df = pd.read_sql_query(f"select formation, month, year, category, mnc_due_to_mua, mnc_due_to_oh, mnc_due_to_r4, mnc_due_to_total, remarks from vehicle_report where formation = '{formation}' and year = '{year}' and month = '{month}'", con=self.engine)
+        return df
+    
+    async def get_record_a(self, formation, year, month):
+        return await asyncio.to_thread(self._get_record_a_sync, formation, year, month)
+    
+    def _get_record_a_by_chunk_sync(self, chuck_metadata):
+        formation, month, year = chuck_metadata.split("-")
+        # print(f"select formation, month, year, category, nmc_due_to_mua, nmc_due_to_oh, nmc_due_to_r4, nmc_due_to_total, remarks from vehicle_report where formation = '{formation}' and year = '{year}' and month = '{month}'")
+        df = pd.read_sql_query(f"select formation, month, year, category, unit, nmc_due_to_eng, nmc_due_to_mua, pmc_due_to_spares, nmc_due_to_oh, mnc_due_to_mr, pmc_due_to_fr nmc_due_to_r4, nmc_due_to_obe, nmc_total, pmc_total, fmc_total, nmc_percentage, pmc_percentage, fmc_percentage, available_percentage, remarks from vehicle_report where formation = '{formation}' and year = '{year}' and month = '{month}'", con=self.engine)
         return df
 
     async def get_record_by_chunk(self, chuck_metadata):
@@ -80,6 +116,13 @@ class Persist_Handler:
 
     async def get_data_for_combo_box(self, column_name):
         return await asyncio.to_thread(self._get_data_for_combo_box_sync, column_name)
+    
+    def _get_data_a_for_combo_box_sync(self, column_name):
+        df = pd.read_sql_query(f"select distinct {column_name} from vehicle_report_a", con=self.engine)
+        return df[column_name].tolist()
+
+    async def get_data_a_for_combo_box(self, column_name):
+        return await asyncio.to_thread(self._get_data_a_for_combo_box_sync, column_name)
     
     def _get_record_metadata_sync(self, formation=None, year=None, month=None):
 

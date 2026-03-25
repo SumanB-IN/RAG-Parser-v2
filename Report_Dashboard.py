@@ -75,7 +75,7 @@ llm_handler = LLMHandler()
 available_models = llm_handler.get_local_ollama_models()
 
 # Display in Streamlit
-tab1, tab2, tab3, tab4 = st.tabs(["📤 File Upload", "📄 Historical Report", "📊 Dashboard", "❓ Q&A"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["📤 File Upload", "📄 Historical Report", "📊 General Dashboard", "📊 A Vehicle Dashboard","❓ Q&A"])
 
 # Add content to the first tab
 with tab1:
@@ -336,7 +336,7 @@ with tab2:
                 st.info("No .json files found in the provided folder.")
        
 with tab3:
-    st.header("Dashboard")
+    st.header("General Dashboard")
 
     col1, col2, col3 = st.columns(3)
     with col1:
@@ -403,6 +403,85 @@ with tab3:
         st.plotly_chart(Pie_Chart_formation_Readiness_in_Percentage)
 
 with tab4:
+    st.header("A Vehicle Dashboard")
+
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        ad_input_frm = st.selectbox('Select a formation', vehicle_handler.get_data_a_for_combo_box('formation'), key='selectbox_1')
+    with col2: 
+        ad_input_month = st.selectbox('Select a month', vehicle_handler.get_data_a_for_combo_box('month'), key='selectbox_2')
+    with col3:
+        ad_input_year = st.selectbox('Select a year', vehicle_handler.get_data_a_for_combo_box('year'), key='selectbox_3')
+    if ad_input_frm == "":
+        ad_input_frm = None
+    if ad_input_month == "":
+        ad_input_month = None
+    if ad_input_year == "":
+        ad_input_year = None
+
+    st.divider()
+
+    vehicle_data = vehicle_handler.get_vehicle_a_records(ad_input_frm, ad_input_year, ad_input_month)
+    
+    vehicle_data['dependency_auth'] = pd.to_numeric(vehicle_data['dependency_auth'], errors='ignore')
+    vehicle_data['dependancy_held'] = pd.to_numeric(vehicle_data['dependancy_held'], errors='ignore')
+    vehicle_data['nmc_due_to_eng'] = pd.to_numeric(vehicle_data['nmc_due_to_eng'], errors='ignore')
+    vehicle_data['nmc_due_to_mua'] = pd.to_numeric(vehicle_data['nmc_due_to_mua'], errors='ignore')
+    vehicle_data['pmc_due_to_spares'] = pd.to_numeric(vehicle_data['pmc_due_to_spares'], errors='ignore')
+    vehicle_data['nmc_due_to_oh'] = pd.to_numeric(vehicle_data['nmc_due_to_oh'], errors='ignore')
+    vehicle_data['nmc_due_to_mr'] = pd.to_numeric(vehicle_data['nmc_due_to_mr'], errors='ignore')
+    vehicle_data['pmc_due_to_fr'] = pd.to_numeric(vehicle_data['pmc_due_to_fr'], errors='ignore')
+    vehicle_data['nmc_due_to_r4'] = pd.to_numeric(vehicle_data['nmc_due_to_r4'], errors='ignore')
+    vehicle_data['nmc_due_to_obe'] = pd.to_numeric(vehicle_data['nmc_due_to_obe'], errors='ignore')
+    vehicle_data['nmc_total'] = pd.to_numeric(vehicle_data['nmc_total'], errors='ignore')
+    vehicle_data['pmc_total'] = pd.to_numeric(vehicle_data['pmc_total'], errors='ignore')
+    vehicle_data['fmc_total'] = pd.to_numeric(vehicle_data['fmc_total'], errors='ignore')
+    vehicle_data['nmc_percentage'] = pd.to_numeric(vehicle_data['nmc_percentage'], errors='ignore')
+    vehicle_data['pmc_percentage'] = pd.to_numeric(vehicle_data['pmc_percentage'], errors='ignore')
+    vehicle_data['fmc_percentage'] = pd.to_numeric(vehicle_data['fmc_percentage'], errors='ignore')
+    vehicle_data['available_percentage'] = pd.to_numeric(vehicle_data['available_percentage'], errors='ignore')
+
+    
+    data_unit_wise = vehicle_data.groupby('unit', as_index = False).sum()
+    
+    data_category_wise = vehicle_data.groupby('category', as_index = False).sum()
+    
+    # Create Bar Chart
+    Bar_Chart_Category_Wise = px.bar(data_category_wise.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'nmc_percentage', 'pmc_percentage', 'fmc_percentage', 'available_percentage', 'remarks']), 
+                                    x="category", 
+                                    y=['category', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total'], 
+                                    title="Total non Combact Category Wise")
+
+    Bar_Chart_Unit_Wise = px.bar(data_unit_wise.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'nmc_percentage', 'pmc_percentage', 'fmc_percentage', 'available_percentage', 'remarks']), 
+                                        x="unit", 
+                                        y=['unit', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total'], 
+                                        title="Total non Combact Sub-Category Wise")
+
+    Bar_Chart_Unit_Wise_Combact_Readiness = px.bar(vehicle_data.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'unit', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total', 'available_percentage', 'remarks']),
+                                                            x = "category",
+                                                            y = ['nmc_percentage', 'pmc_percentage', 'fmc_percentage'],
+                                                            barmode = 'group',
+                                                            title = "Mission Capability Level Unit Wise")
+
+    data_unit_wise_combact_readiness_in_percentage = data_unit_wise.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'category', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total', 'nmc_percentage', 'pmc_percentage', 'fmc_percentage', 'remarks'])
+    # data_sub_category_wise_combact_readiness_in_percentage['percentage'] = (data_sub_category_wise_combact_readiness_in_percentage['fmc'].astype(int) / data_sub_category_wise_combact_readiness_in_percentage['fmc'].astype(int).sum()) * 100
+
+    Pie_Chart_formation_Readiness_in_Percentage = px.pie(data_unit_wise_combact_readiness_in_percentage,
+                                                    values='available_percentage', 
+                                                    names='unit',
+                                                    title="Combact Readiness Chart Unit Wise")
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        st.plotly_chart(Bar_Chart_Category_Wise)
+        st.plotly_chart(Bar_Chart_Unit_Wise)
+
+    with col2:
+        st.plotly_chart(Bar_Chart_Unit_Wise_Combact_Readiness, stack=False)
+        st.plotly_chart(Pie_Chart_formation_Readiness_in_Percentage)
+
+with tab5:
     st.header("Q&A Section")
     if "qa_question" not in st.session_state:
         st.session_state.qa_question = ""
