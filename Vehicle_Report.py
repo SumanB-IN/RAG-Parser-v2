@@ -41,7 +41,7 @@ class Vehicle_Report(Base):
     fmc = Column(String)
     remarks = Column(ARRAY(String))
     chunk_metadata = Column(String)
-    vector_embedding = Column(Vector(768))
+    # vector_embedding = Column(Vector(768))
 
     def create_tables(engine):
         print("Creating Tables")
