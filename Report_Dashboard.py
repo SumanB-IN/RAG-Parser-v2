@@ -2,6 +2,7 @@ import torch
 torch.classes.__path__ = []
 
 import plotly.express as px
+import plotly.graph_objects as go
 import pandas as pd
 import asyncio
 import streamlit as st
@@ -441,15 +442,17 @@ with tab4:
     vehicle_data['fmc_percentage'] = pd.to_numeric(vehicle_data['fmc_percentage'], errors='ignore')
     vehicle_data['available_percentage'] = pd.to_numeric(vehicle_data['available_percentage'], errors='ignore')
 
+    vehicle_data = vehicle_data[vehicle_data['dependancy_held'] != 0]
+
     
     data_unit_wise = vehicle_data.groupby('unit', as_index = False).sum()
     
     data_category_wise = vehicle_data.groupby('category', as_index = False).sum()
     
     # Create Bar Chart
-    Bar_Chart_Category_Wise = px.bar(data_category_wise.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'nmc_percentage', 'pmc_percentage', 'fmc_percentage', 'available_percentage', 'remarks']), 
+    Bar_Chart_Category_Wise = px.bar(data_category_wise.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'nmc_total', 'pmc_total','fmc_total', 'nmc_percentage', 'pmc_percentage', 'fmc_percentage', 'available_percentage', 'remarks']), 
                                     x="category", 
-                                    y=['category', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total'], 
+                                    y=['category', 'dependency_auth', 'dependancy_held'], 
                                     title="Total non Combact Category Wise")
 
     Bar_Chart_Unit_Wise = px.bar(data_unit_wise.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'nmc_percentage', 'pmc_percentage', 'fmc_percentage', 'available_percentage', 'remarks']), 
@@ -457,11 +460,34 @@ with tab4:
                                         y=['unit', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total'], 
                                         title="Total non Combact Sub-Category Wise")
 
-    Bar_Chart_Unit_Wise_Combact_Readiness = px.bar(vehicle_data.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'unit', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total', 'available_percentage', 'remarks']),
-                                                            x = "category",
-                                                            y = ['nmc_percentage', 'pmc_percentage', 'fmc_percentage'],
-                                                            barmode = 'group',
-                                                            title = "Mission Capability Level Unit Wise")
+    data_unit_category_wise = vehicle_data.groupby(['category', 'unit'], as_index=False)[['nmc_percentage', 'pmc_percentage', 'fmc_percentage']].sum()
+    data_unit_category_wise = data_unit_category_wise.sort_values(['category', 'unit'])
+
+    Bar_Chart_Unit_Wise_Combact_Readiness = go.Figure()
+    Bar_Chart_Unit_Wise_Combact_Readiness.add_trace(go.Bar(
+        y=[data_unit_category_wise['category'], data_unit_category_wise['unit']],
+        x=data_unit_category_wise['nmc_percentage'],
+        name='NMC %',
+        orientation='h'
+    ))
+    Bar_Chart_Unit_Wise_Combact_Readiness.add_trace(go.Bar(
+        y=[data_unit_category_wise['category'], data_unit_category_wise['unit']],
+        x=data_unit_category_wise['pmc_percentage'],
+        name='PMC %',
+        orientation='h'
+    ))
+    Bar_Chart_Unit_Wise_Combact_Readiness.add_trace(go.Bar(
+        y=[data_unit_category_wise['category'], data_unit_category_wise['unit']],
+        x=data_unit_category_wise['fmc_percentage'],
+        name='FMC %',
+        orientation='h'
+    ))
+    Bar_Chart_Unit_Wise_Combact_Readiness.update_layout(
+        barmode='group',
+        bargap=0.45,
+        bargroupgap=0.1,
+        title='Mission Capability Level Unit Wise'
+    )
 
     data_unit_wise_combact_readiness_in_percentage = data_unit_wise.drop(columns=['id', 'formation', 'year', 'month', 'nmc_due_to_eng', 'nmc_due_to_mua', 'nmc_due_to_oh', 'nmc_due_to_r4', 'nmc_due_to_obe', 'pmc_due_to_spares', 'pmc_due_to_fr', 'category', 'dependency_auth', 'dependancy_held', 'nmc_total', 'pmc_total','fmc_total', 'nmc_percentage', 'pmc_percentage', 'fmc_percentage', 'remarks'])
     # data_sub_category_wise_combact_readiness_in_percentage['percentage'] = (data_sub_category_wise_combact_readiness_in_percentage['fmc'].astype(int) / data_sub_category_wise_combact_readiness_in_percentage['fmc'].astype(int).sum()) * 100
